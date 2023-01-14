@@ -1,35 +1,38 @@
 {
-	"name": "Azure Functions & PowerShell",
+	"name": "Azure Functions",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"forwardPorts": [ 7071 ],
-
+	"forwardPorts": [
+		7071
+	],
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
-			"settings": { 
+			// Without all of these PowerShell values, an OmniSharp error will appear when
+			// debugging and then a notice about Windows PowerShell will appear in containers
+			"settings": {
+				"powershell.powerShellAdditionalExePaths": {
+					"PowerShell": "/usr/bin/pwsh"
+				},
+				"powershell.powerShellDefaultVersion": "PowerShell",
 				"terminal.integrated.defaultProfile.linux": "pwsh"
 			},
-			
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-azuretools.vscode-azurefunctions",
 				"ms-vscode.powershell",
-				"GitHub.copilot"
-				
+				"dbatools.search",
+				"Azurite.azurite",
+				"usernamehw.errorlens"
 			]
 		}
 	},
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
-	
 	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
-	"features": {
-		"ghcr.io/devcontainers/features/azure-cli:1": {}
-	}
+	"remoteUser": "vscode"
+	// some people add github functionality here but I found it to be slow
 }

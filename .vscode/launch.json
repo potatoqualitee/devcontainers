@@ -8,6 +8,13 @@
       "customPipeName": "AzureFunctionsPSWorker",
       "runspaceId": 1,
       "preLaunchTask": "func: host start"
+    },
+    {
+      "name": "Attach node to Functions",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start"
     }
   ]
 }
