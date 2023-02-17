@@ -4,7 +4,7 @@
     {
       "label": "func: host start",
       "type": "func",
-      "command": "host start",
+      "command": "host start --powershell --verbose",
       "problemMatcher": "$func-powershell-watch",
       "isBackground": true,
       "options": {

@@ -9,10 +9,10 @@
         "__**.*": true
     },
     "terminal.integrated.profiles.linux": {
-        "pwsh": {
+        "thispwsh": {
             "path": "/usr/bin/pwsh",
             "icon": "terminal-powershell"
         }
     },
-    "terminal.integrated.defaultProfile.linux": "pwsh"
+    "terminal.integrated.defaultProfile.linux": "thispwsh"
 }
