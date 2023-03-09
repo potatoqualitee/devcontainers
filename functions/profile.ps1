@@ -18,7 +18,40 @@ if ($env:MSI_SECRET -and (Get-Module -ListAvailable Az.Accounts)) {
     Connect-AzAccount -Identity
 }
 
-# Uncomment the next line to enable legacy AzureRm alias in Azure PowerShell.
-# Enable-AzureRmAlias
 
-# You can also define functions or aliases that can be referenced in any of your PowerShell functions.
+Import-Module PSPostgres
+$PSDefaultParameterValues["*:EnableException"] = $true
+$PSDefaultParameterValues["Connect-Postgres:ConnectionString"] = $env:PGSQLCONN
+$PSDefaultParameterValues["*:Confirm"] = $false
+
+# You can also define functions, aliases or script varaibles that can be referenced in any of your PowerShell functions.
+
+# https://learn.microsoft.com/en-us/azure/azure-functions/manage-connections?tabs=csharp
+
+Function Push-GoodRequest {
+    [CmdletBinding()]
+    param(
+        [Parameter(ValueFromPipeline)]
+        [psobject[]]$Body
+    )
+    Push-OutputBinding -Name Response -Value (
+        [HttpResponseContext]@{
+            StatusCode = [HttpStatusCode]::OK
+            Body       = ($Body) | ConvertTo-Json -Compress
+        }
+    )
+}
+ 
+Function Push-BadRequest {
+    [CmdletBinding()]
+    param(
+        [Parameter(ValueFromPipeline)]
+        [psobject[]]$Body
+    )
+    Push-OutputBinding -Name Response -Value (
+        [HttpResponseContext]@{
+            StatusCode = [HttpStatusCode]::BadRequest
+            Body       = ($Body) | ConvertTo-Json -Compress
+        }
+    )
+}

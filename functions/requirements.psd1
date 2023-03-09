@@ -2,5 +2,5 @@
 # See https://aka.ms/functionsmanageddependency for additional information.
 #
 @{
-    'AzTable'               = '2.1.0'
+    'PSPostgres' = '1.0.0'
 }

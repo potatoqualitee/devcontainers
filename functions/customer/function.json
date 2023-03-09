@@ -9,7 +9,7 @@
         "get",
         "post"
       ],
-      "route": "greeting/{name}"
+      "route": "customer/{id?}"
     },
     {
       "type": "http",

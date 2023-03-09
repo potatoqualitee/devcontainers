@@ -1,24 +1,28 @@
 {
 	"name": "Azure Functions",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"service": "functions",
 	"forwardPorts": [
-		7071
+		7071,
+		8081,
+		5432
 	],
 	"portsAttributes": {
 		"7071": {
 			"protocol": "http",
 			"label": "Functions App"
+		},
+		"8081": {
+			"protocol": "https",
+			"label": "Cosmos API"
+		},
+		"5432": {
+			"label": "Postgres"
 		}
 	},
-	// Configure tool-specific properties.
 	"customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			// Without all of these PowerShell values, an OmniSharp error will appear when
-			// debugging and then a notice about Windows PowerShell will appear in containers
 			"settings": {
 				"powershell.powerShellAdditionalExePaths": {
 					"PowerShell": "/usr/bin/pwsh"
@@ -26,19 +30,14 @@
 				"powershell.powerShellDefaultVersion": "PowerShell",
 				"terminal.integrated.defaultProfile.linux": "thispwsh"
 			},
-			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-azuretools.vscode-azurefunctions",
 				"ms-vscode.powershell",
 				"dbatools.search",
-				"Azurite.azurite",
-				"usernamehw.errorlens"
+				"Azurite.azurite"
 			]
 		}
 	},
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "dotnet restore",
-	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"postCreateCommand": "/tmp/fix-cert.sh",
 	"remoteUser": "vscode"
-	// some people add github functionality here but I found it to be slow
 }

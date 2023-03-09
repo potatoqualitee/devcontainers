@@ -1,0 +1,52 @@
+version: '3.7'
+
+services:
+
+  functions:
+    container_name: functions
+    image: mcr.microsoft.com/azure-functions/powershell:4-powershell7.2-core-tools
+    tty: true
+    restart: always
+    depends_on:
+      - cosmos
+      - postgres
+    environment:
+      - PGSQLCONN=host = localhost; port = 5432; database = db; user id = dbuser; password = BB723117-3Edc-4629-94ba-D7d3143C0500!;
+      - DB_HOST=localhost
+      - DB_NAME=db
+      - DB_USER=dbuser
+      - DB_PASS=BB723117-3Edc-4629-94ba-D7d3143C0500!
+      - CosmosDb_EndpointUri=https://localhost:8081/
+      - CosmosDb_AuthKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==
+      - CosmosDb_PartitionKey=/partitionKey
+      - CosmosDb_DatabaseName=cosmosdb
+      - CosmosDb_ContainerName=dbcontainer
+    volumes:
+      - ..:/workspace:cached
+      - ../.devcontainer/scripts/fix-cert.sh:/tmp/fix-cert.sh
+    init: true
+    network_mode: service:postgres
+
+  cosmos:
+    container_name: cosmos
+    restart: on-failure
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    mem_limit: 3g
+    cpu_count: 2
+    environment:
+      AZURE_COSMOS_EMULATOR_PARTITION_COUNT: 2
+      AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE: "true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker-host.sock
+    network_mode: service:postgres
+    
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=db
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=BB723117-3Edc-4629-94ba-D7d3143C0500!
+    volumes:
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+      - /var/run/docker.sock:/var/run/docker-host.sock
