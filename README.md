@@ -50,7 +50,7 @@ So here's directory structure for what I think I'll be using a template for my A
     ├── profile.ps1
     ├── requirements.psd1
     ├── templates
-    └── greetingGet
+    └── greeting
         ├── function.json
         └── run.ps1
 ```
@@ -132,7 +132,7 @@ I'm still undecided (considering the Gallery's instability) but I think I'll use
 
 This is where I'll store my ARM templates or bicep or whatever, probably.
 
-###### greetingGet
+###### greeting
 
 This is my actual test function! The folders will be named like this:
 
@@ -191,7 +191,7 @@ Alright, so next, let's get the Azure Functions App running by hitting debug.
 
 ![image](https://user-images.githubusercontent.com/8278033/212489005-724d16fe-3050-4c2d-9ddc-184125ac7b9e.png)
 
-Wait until a prompt that pops up saying that your application is running on port 7071 (when this screenshot was created, the folder was named vmGet and not greetingGet). 
+Wait until a prompt that pops up saying that your application is running on port 7071 (when this screenshot was created, the folder was named vmGet and not greeting). 
 
 I'm including the whole VS Code screenshot because when I started doing functions, I wanted the tutorial to show what I'm supposed to be seeing.
 
@@ -201,7 +201,7 @@ Go ahead and `Open in Browser` to be amazed!
 
 ![image](https://user-images.githubusercontent.com/8278033/212489332-244fb4b5-5b45-4601-bcdd-415f1a556ebe.png)
 
-Next up, we'll execute the function. Click the Azure Extension, expand the workspace tab at the bottom, then right click on `greetingGet`. Then click `Execute Function Now...`
+Next up, we'll execute the function. Click the Azure Extension, expand the workspace tab at the bottom, then right click on `greeting`. Then click `Execute Function Now...`
 
 ![image](https://user-images.githubusercontent.com/8278033/212529359-d2e6aa15-c400-431b-b29b-c5b4977e3f17.png)
 
