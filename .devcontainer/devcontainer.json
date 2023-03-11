@@ -6,6 +6,12 @@
 	"forwardPorts": [
 		7071
 	],
+	"portsAttributes": {
+		"7071": {
+			"protocol": "http",
+			"label": "Functions App"
+		}
+	},
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
