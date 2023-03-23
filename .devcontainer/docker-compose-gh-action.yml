@@ -1,0 +1,38 @@
+version: '3.7'
+
+services:
+  ghfunctions:
+    container_name: ghfunctions
+    image: mcr.microsoft.com/azure-functions/powershell:4-powershell7.2-core-tools
+    networks:
+      - ghlocalnet
+    tty: true
+    restart: always
+    ports:
+      - "7071:7071"
+    depends_on:
+      - ghcosmos
+    volumes:
+      - ..:/workspace:cached
+      - ../.devcontainer/scripts/startup.ps1:/tmp/startup.ps1
+    init: true
+    entrypoint: ["/usr/bin/func","host","start","--powershell","--script-root","/workspace/functions","--verbose"]
+
+  ghcosmos:
+    container_name: ghcosmos
+    ports:
+      - "8081:8081"
+    networks:
+      - ghlocalnet
+    restart: on-failure
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    mem_limit: 3g
+    cpu_count: 2
+    environment:
+      AZURE_COSMOS_EMULATOR_PARTITION_COUNT: 2
+      AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE: "true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker-host.sock
+
+networks:
+  ghlocalnet: null

@@ -1,0 +1,48 @@
+name: Test CRUD
+on: push
+jobs:
+  integration-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run docker compose
+        run: docker compose -f ./.devcontainer/docker-compose-gh-action.yml up -d
+
+      - name: Install and cache PowerShell modules
+        uses: potatoqualitee/psmodulecache@v5.2
+        with:
+          modules-to-cache: Az.Accounts:1.0.0, Az.Resources:1.0.0, CosmosDB:4.7.0
+
+      - name: Check availability of cosmos using curl
+        run: curl --retry 10 --retry-all-errors -k https://localhost:8081/_explorer/index.html
+
+      - name: Check availability of functions using curl
+        run: curl --retry 10 --retry-all-errors -k http://localhost:7071/v1/customers > /dev/null
+
+      - name: Download self-signed cert
+        shell: pwsh
+        run: |
+          sudo curl -k https://localhost:8081/_explorer/emulator.pem > $home/emulatorcert.crt
+          $cert = Get-Content $home/emulatorcert.crt | Where-Object { $PSItem -match "BEGIN CERTIFICATE" }
+          if (-not $cert) {
+            echo quit | openssl s_client -showcerts -servername localhost -connect localhost:8081 > ~/emulatorcert.crt
+          }
+          cat ~/emulatorcert.crt
+          sudo cp ~/emulatorcert.crt /usr/local/share/ca-certificates/
+          sudo update-ca-certificates --fresh
+
+      - name: Setup CosmosDB
+        shell: pwsh
+        run: |
+          dotnet dev-certs https --clean
+          dotnet dev-certs https --trust
+          Import-Module CosmosDB
+          $cosmosDbContext = New-CosmosDbContext -Emulator
+          New-CosmosDbDatabase -Context $cosmosDbContext -Id Northwind
+          New-CosmosDbCollection -Context $cosmosDbContext -Database Northwind -Id customers -PartitionKey customer_id
+
+      - name: Run PowerShell tests
+        shell: pwsh
+        run: Invoke-Pester ./tests/ -Output Detailed -PassThru

@@ -2,5 +2,5 @@
 # See https://aka.ms/functionsmanageddependency for additional information.
 #
 @{
-    'AzTable'               = '2.1.0'
+    
 }

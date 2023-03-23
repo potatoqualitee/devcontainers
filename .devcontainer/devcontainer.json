@@ -1,15 +1,20 @@
 {
 	"name": "Azure Functions",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"service": "functions",
 	"forwardPorts": [
-		7071
+		7071,
+		8081
 	],
 	"portsAttributes": {
 		"7071": {
 			"protocol": "http",
 			"label": "Functions App"
+		},
+		"8081": {
+			"protocol": "https",
+			"label": "Cosmos API"
 		}
 	},
 	"customizations": {
@@ -29,5 +34,6 @@
 			]
 		}
 	},
+	"postCreateCommand": "pwsh /tmp/startup.ps1",
 	"remoteUser": "vscode"
 }

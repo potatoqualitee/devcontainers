@@ -9,16 +9,51 @@
 # You can define helper functions, run commands, or specify environment variables
 # NOTE: any variables defined that are not environment variables will get reset after the first execution
 
-# Authenticate with Azure PowerShell using MSI.
-# Remove this if you are not planning on using MSI or Azure PowerShell.
+$PSDefaultParameterValues["*:EnableException"] = $true
+$PSDefaultParameterValues["*:Confirm"] = $false
 
-# Import-Module Az.Accounts -RequiredVersion '1.9.5'
+# You can also define functions, aliases or script varaibles that can be referenced in any of your PowerShell functions.
 
-if ($env:MSI_SECRET -and (Get-Module -ListAvailable Az.Accounts)) {
-    Connect-AzAccount -Identity
+# https://learn.microsoft.com/en-us/azure/azure-functions/manage-connections?tabs=csharp
+
+Function Push-GoodRequest {
+    [CmdletBinding()]
+    param(
+        [psobject[]]$Body,
+        [hashtable]$Headers
+    )
+
+    if ("$Body".Length -eq 1 -or "$Body" -eq "Null" -or $null -eq $Body) {
+        Write-Host "Body length is 1 or Null"
+        Push-OutputBinding -Name Response -Value (
+            [HttpResponseContext]@{
+                Headers    = $Headers
+                StatusCode = [HttpStatusCode]::OK
+                Body       = $Body
+            }
+        )
+    } else {
+        Push-OutputBinding -Name Response -Value (
+            [HttpResponseContext]@{
+                Headers    = $Headers
+                StatusCode = [HttpStatusCode]::OK
+                Body       = ($Body) | ConvertTo-Json -Compress
+            }
+        )
+    }
 }
-
-# Uncomment the next line to enable legacy AzureRm alias in Azure PowerShell.
-# Enable-AzureRmAlias
-
-# You can also define functions or aliases that can be referenced in any of your PowerShell functions.
+ 
+Function Push-BadRequest {
+    [CmdletBinding()]
+    param(
+        [psobject[]]$Body,
+        [hashtable]$Headers
+    )
+    Push-OutputBinding -Name Response -Value (
+        [HttpResponseContext]@{
+            Headers    = $Headers
+            StatusCode = [HttpStatusCode]::BadRequest
+            Body       = ($Body) | ConvertTo-Json -Compress
+        }
+    )
+}

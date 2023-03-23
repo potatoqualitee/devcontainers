@@ -50,7 +50,7 @@ So here's directory structure for what I think I'll be using a template for my A
     ├── profile.ps1
     ├── requirements.psd1
     ├── templates
-    └── greeting
+    └── greetingGet
         ├── function.json
         └── run.ps1
 ```
@@ -104,8 +104,6 @@ I also reiterated the location of PowerShell on Linux. Without this one (or mayb
 
 ![image](https://user-images.githubusercontent.com/8278033/212469994-cdb43eec-ed85-41e3-ba98-fa3475cd10ef.png)
 
-If you see that, btw, try just restarting your VS Code and that often times can help.
-
 Oh, and I ignored all those files that Azurite generates.
 
 ### functions
@@ -134,12 +132,15 @@ I'm still undecided (considering the Gallery's instability) but I think I'll use
 
 This is where I'll store my ARM templates or bicep or whatever, probably.
 
-###### greeting
+###### greetingGet
 
 This is my actual test function! The folders will be named like this:
 
-* vm
-* storage
+* vmGet
+* vmNew
+* vmStop
+* storageCreate
+* storageDelete
 
 While the routes will look like this
 
@@ -149,23 +150,13 @@ While the routes will look like this
 * /storage/create
 * /storage/delete
 
-PREVIOUSLY, my folder structure looked like this
-
-* vm
-* vmNew
-* vmStop
-* storageCreate
-* storageDelete
-
-But then I found an awesome approach from [Davide Mauri](https://github.com/yorek/azure-sql-db-todo-mvc/tree/main/api) and adapted. All methods are stored in one folder/function and handled with a with a METHOD `switch`.
-
 ###### host.json
 
 This has a bunch of non-default values that I found in a repo and I imagine it'll come in handy. One day, I'll find out why they used these values haha.
 
 ###### profile.ps1
 
-I love that they enable profile loading! In my more advanced module, I used it to create a few quick functions. I also used it to explicitly load a slow-loading module and set some things like [$PSDefaultParameterValues](https://dbatools.io/defaults/).
+I love that they enable profile loading! I'll likely use it to explicitly load slow-loading modules and set some things like [$PSDefaultParameterValues](https://dbatools.io/defaults/).
 
 
 ###### requirements.psd1
@@ -200,7 +191,7 @@ Alright, so next, let's get the Azure Functions App running by hitting debug.
 
 ![image](https://user-images.githubusercontent.com/8278033/212489005-724d16fe-3050-4c2d-9ddc-184125ac7b9e.png)
 
-Wait until a prompt that pops up saying that your application is running on port 7071 (when this screenshot was created, the folder was named vm and not greeting). 
+Wait until a prompt that pops up saying that your application is running on port 7071 (when this screenshot was created, the folder was named vmGet and not greetingGet). 
 
 I'm including the whole VS Code screenshot because when I started doing functions, I wanted the tutorial to show what I'm supposed to be seeing.
 
@@ -210,9 +201,9 @@ Go ahead and `Open in Browser` to be amazed!
 
 ![image](https://user-images.githubusercontent.com/8278033/212489332-244fb4b5-5b45-4601-bcdd-415f1a556ebe.png)
 
-Next up, we'll execute the function. Click the Azure Extension, expand the workspace tab at the bottom, then right click on `greeting`. Then click `Execute Function Now...`
+Next up, we'll execute the function. Click the Azure Extension, expand the workspace tab at the bottom, then right click on `greetingGet`. Then click `Execute Function Now...`
 
-![image](https://user-images.githubusercontent.com/8278033/224468516-98789fe5-d520-4b47-9063-a7ebfd056d80.png)
+![image](https://user-images.githubusercontent.com/8278033/212529359-d2e6aa15-c400-431b-b29b-c5b4977e3f17.png)
 
 A prompt will appear in the settings bar at the top and you can change the default name of `Azure` to anything you like.
 
@@ -220,7 +211,7 @@ A prompt will appear in the settings bar at the top and you can change the defau
 
 I changed it to `blog reader`. And here it is, successfully running!
 
-![image](https://user-images.githubusercontent.com/8278033/224468641-5b9b5b32-aec9-46d6-8dfb-f45b27eb835d.png)
+![image](https://user-images.githubusercontent.com/8278033/212529489-d8bc4b4a-6bc7-4d73-82c6-1347bc2893b7.png)
 
 :mindblown:
 

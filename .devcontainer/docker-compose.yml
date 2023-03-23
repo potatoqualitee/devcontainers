@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  functions:
+    container_name: functions
+    image: mcr.microsoft.com/azure-functions/powershell:4-powershell7.2-core-tools
+    tty: true
+    restart: always
+    depends_on:
+      - cosmos
+    volumes:
+      - ..:/workspace:cached
+      - ../.devcontainer/scripts/startup.ps1:/tmp/startup.ps1
+    init: true
+    network_mode: service:cosmos
+
+  cosmos:
+    container_name: cosmos
+    restart: on-failure
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    mem_limit: 3g
+    cpu_count: 2
+    environment:
+      AZURE_COSMOS_EMULATOR_PARTITION_COUNT: 5
+      AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE: "true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker-host.sock
