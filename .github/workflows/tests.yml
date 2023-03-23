@@ -1,0 +1,18 @@
+name: Test CRUD
+on: push
+jobs:
+  integration-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run docker compose
+        run: docker compose -f ./.devcontainer/docker-compose-gh-action.yml up -d
+
+      - name: Check availability using curl
+        run: curl --retry 25 --retry-all-errors -k http://localhost:7071/v1/customers
+
+      - name: Run PowerShell tests
+        shell: pwsh
+        run: Invoke-Pester ./tests/ -Output Detailed -PassThru

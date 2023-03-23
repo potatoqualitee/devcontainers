@@ -1,15 +1,19 @@
 {
 	"name": "Azure Functions",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"service": "functions",
 	"forwardPorts": [
-		7071
+		7071,
+		5432
 	],
 	"portsAttributes": {
 		"7071": {
 			"protocol": "http",
 			"label": "Functions App"
+		},
+		"5432": {
+			"label": "Postgres"
 		}
 	},
 	"customizations": {
@@ -25,7 +29,8 @@
 			"extensions": [
 				"ms-azuretools.vscode-azurefunctions",
 				"ms-vscode.powershell",
-				"dbatools.search"
+				"dbatools.search",
+				"ckolkman.vscode-postgres"
 			]
 		}
 	},
