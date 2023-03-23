@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "managedDependency": {
+    "enabled": true
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  },
+  "extensions": {
+    "http" : {
+      "routePrefix": ""
+    },
+    "serviceBus": {
+      "messageHandlerOptions": {
+        "autoComplete": true,
+        "maxAutoRenewDuration": "01:59:00",
+        "maxConcurrentCalls": 16
+      }
+    }
+  },
+  "functionTimeout": "-1"
+}
+

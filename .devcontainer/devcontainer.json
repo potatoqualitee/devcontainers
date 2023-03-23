@@ -1,0 +1,33 @@
+{
+	"name": "Azure Functions",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [
+		7071
+	],
+	"portsAttributes": {
+		"7071": {
+			"protocol": "http",
+			"label": "Functions App"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"powershell.powerShellAdditionalExePaths": {
+					"PowerShell": "/usr/bin/pwsh"
+				},
+				"powershell.powerShellDefaultVersion": "PowerShell",
+				"terminal.integrated.defaultProfile.linux": "thispwsh",
+				"azureFunctions.pickProcessTimeout": 500
+			},
+			"extensions": [
+				"ms-azuretools.vscode-azurefunctions",
+				"ms-vscode.powershell",
+				"dbatools.search"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}

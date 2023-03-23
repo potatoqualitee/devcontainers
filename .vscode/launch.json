@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to PowerShell Functions",
+      "type": "PowerShell",
+      "request": "attach",
+      "customPipeName": "AzureFunctionsPSWorker",
+      "runspaceId": 1,
+      "processId": "${command:azureFunctions.pickProcess}",
+      "preLaunchTask": "func: host start"
+    }
+  ]
+}

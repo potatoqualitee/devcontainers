@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "func: host start",
+      "type": "shell",
+      "command": "func host start --powershell --verbose",
+      "problemMatcher": "$func-powershell-watch",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/functions"
+      }
+    }
+  ]
+}

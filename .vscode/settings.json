@@ -1,0 +1,18 @@
+{
+    "azureFunctions.deploySubpath": "functions",
+    "azureFunctions.projectLanguage": "PowerShell",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    // The following will hide the storage emulation files in the editor
+    "files.exclude": {
+        "__**/": true,
+        "__**.*": true
+    },
+    "terminal.integrated.profiles.linux": {
+        "thispwsh": {
+            "path": "/usr/bin/pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "thispwsh"
+}
