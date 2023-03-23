@@ -1,22 +1,39 @@
 {
   "bindings": [
     {
-      "authLevel": "function",
+      "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
       "name": "Request",
       "methods": [
         "get",
-        "post",
-        "patch",
-        "delete"
+        "post"
       ],
-      "route": "customers/{id:alpha?}/{options?}"
+      "route": "customers"
     },
     {
       "type": "http",
       "direction": "out",
       "name": "Response"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "CosmosInput",
+      "databaseName": "northwind",
+      "collectionName": "customers",
+      "connectionStringSetting": "CosmosDBConnection",
+      "sqlQuery": "SELECT * from c",
+      "PartitionKey": "/customer_id"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "CosmosOutput",
+      "databaseName": "northwind",
+      "collectionName": "customers",
+      "connectionStringSetting": "CosmosDBConnection",
+      "PartitionKey": "/customer_id"
     }
   ]
 }
