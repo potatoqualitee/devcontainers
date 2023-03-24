@@ -17,28 +17,46 @@ Get-Content $home/emulatorcert.crt
 sudo cp $home/emulatorcert.crt /usr/local/share/ca-certificates/
 sudo update-ca-certificates --fresh
 
-<#
 
 $tables = @{
-    "customers" = "customer_id"
-    "orders"    = "order_id"
+    order_details = "order_id"
+    orders        = "order_id"
+    customers     = "order_id"
+    products      = "order_id"
+    suppliers     = "order_id"
+    employees     = "order_id"
 }
 
-foreach ($table in $tables.Keys) {
-    $collection = $table -split "\." | Select-Object -Last 1
-    $partitionkey = $tables[$table]
+$cosmosDbContext = New-CosmosDbContext -Emulator
+New-CosmosDbDatabase -Context $cosmosDbContext -Id Northwind
+
+foreach ($collection in $tables.Keys) {
+    $partitionkey = $tables[$collection]
     Write-Warning $collection
     Write-Warning $partitionkey
-    New-CosmosDbCollection -Context $cosmosDbContext -Database paritycontrol -Id $collection -PartitionKey $partitionkey -ErrorAction Ignore
 
-    $items = Invoke-PostgresQuery -Connection $conn -Query "select * from $table;" 
-
-    foreach ($item in $items) {
-        $item.id = $item.$partitionkey
-        Write-Warning $item.id
-        $collection = $table -split "\." | Select-Object -Last 1
-        $json = $item | ConvertTo-Json -EnumsAsStrings
-    
-        New-CosmosDbDocument -Context $cosmosDbContext -Database paritycontrol -CollectionId $collection -DocumentBody $json -Encoding 'UTF-8' -PartitionKey "$($item.id)"
+    $parms = @{
+        Context      = $cosmosDbContext
+        Database     = "Northwind"
+        Id           = $collection
+        PartitionKey = $partitionkey
+        ErrorAction  = "Ignore"
     }
-#>
+
+    #New-CosmosDbCollection @parms
+
+    foreach ($item in (Get-ChildItem ./tests/json/$collection)) {
+        Write-Warning $item.FullName
+        $json = Get-Content -Raw -Path $item.FullName
+        $parms = @{
+            Context      = $cosmosDbContext
+            Database     = "Northwind"
+            CollectionId = $collection
+            DocumentBody = $json
+            Encoding     = "UTF-8"
+            PartitionKey = $partitionkey
+        }
+        New-CosmosDbDocument @parms
+    }
+}
+
