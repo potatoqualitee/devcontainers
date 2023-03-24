@@ -1,0 +1,17 @@
+{
+  "order_id": 10884,
+  "customer_id": "LETSS",
+  "employee_id": 4,
+  "order_date": "1998-02-12T00:00:00",
+  "required_date": "1998-03-12T00:00:00",
+  "shipped_date": "1998-02-13T00:00:00",
+  "ship_via": 2,
+  "freight": 90.97,
+  "ship_name": "Let's Stop N Shop",
+  "ship_address": "87 Polk St. Suite 5",
+  "ship_city": "San Francisco",
+  "ship_region": "CA",
+  "ship_postal_code": "94117",
+  "ship_country": "USA",
+  "id": "c79f8960-9b18-4914-af18-bf071cf9091b"
+}

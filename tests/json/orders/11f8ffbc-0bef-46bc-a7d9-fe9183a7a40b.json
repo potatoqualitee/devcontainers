@@ -1,0 +1,17 @@
+{
+  "order_id": 10898,
+  "customer_id": "OCEAN",
+  "employee_id": 4,
+  "order_date": "1998-02-20T00:00:00",
+  "required_date": "1998-03-20T00:00:00",
+  "shipped_date": "1998-03-06T00:00:00",
+  "ship_via": 2,
+  "freight": 1.27,
+  "ship_name": "Océano Atlántico Ltda.",
+  "ship_address": "Ing. Gustavo Moncada 8585 Piso 20-A",
+  "ship_city": "Buenos Aires",
+  "ship_region": null,
+  "ship_postal_code": "1010",
+  "ship_country": "Argentina",
+  "id": "11f8ffbc-0bef-46bc-a7d9-fe9183a7a40b"
+}

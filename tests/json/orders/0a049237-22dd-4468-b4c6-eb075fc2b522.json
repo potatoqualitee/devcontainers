@@ -1,0 +1,17 @@
+{
+  "order_id": 10906,
+  "customer_id": "WOLZA",
+  "employee_id": 4,
+  "order_date": "1998-02-25T00:00:00",
+  "required_date": "1998-03-11T00:00:00",
+  "shipped_date": "1998-03-03T00:00:00",
+  "ship_via": 3,
+  "freight": 26.29,
+  "ship_name": "Wolski Zajazd",
+  "ship_address": "ul. Filtrowa 68",
+  "ship_city": "Warszawa",
+  "ship_region": null,
+  "ship_postal_code": "01-012",
+  "ship_country": "Poland",
+  "id": "0a049237-22dd-4468-b4c6-eb075fc2b522"
+}

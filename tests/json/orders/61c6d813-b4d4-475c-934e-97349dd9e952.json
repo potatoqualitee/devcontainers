@@ -1,0 +1,17 @@
+{
+  "order_id": 10528,
+  "customer_id": "GREAL",
+  "employee_id": 6,
+  "order_date": "1997-05-06T00:00:00",
+  "required_date": "1997-05-20T00:00:00",
+  "shipped_date": "1997-05-09T00:00:00",
+  "ship_via": 2,
+  "freight": 3.35,
+  "ship_name": "Great Lakes Food Market",
+  "ship_address": "2732 Baker Blvd.",
+  "ship_city": "Eugene",
+  "ship_region": "OR",
+  "ship_postal_code": "97403",
+  "ship_country": "USA",
+  "id": "61c6d813-b4d4-475c-934e-97349dd9e952"
+}

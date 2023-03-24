@@ -1,0 +1,17 @@
+{
+  "order_id": 10292,
+  "customer_id": "TRADH",
+  "employee_id": 1,
+  "order_date": "1996-08-28T00:00:00",
+  "required_date": "1996-09-25T00:00:00",
+  "shipped_date": "1996-09-02T00:00:00",
+  "ship_via": 2,
+  "freight": 1.35,
+  "ship_name": "Tradiçao Hipermercados",
+  "ship_address": "Av. Inês de Castro, 414",
+  "ship_city": "Sao Paulo",
+  "ship_region": "SP",
+  "ship_postal_code": "05634-030",
+  "ship_country": "Brazil",
+  "id": "c6f14b1e-a6c2-4200-959f-48bff3b41b28"
+}

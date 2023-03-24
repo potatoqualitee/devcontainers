@@ -1,0 +1,14 @@
+{
+  "product_id": 75,
+  "product_name": "Rhönbräu Klosterbier",
+  "supplier_id": 12,
+  "category_id": 1,
+  "quantity_per_unit": "24 - 0.5 l bottles",
+  "unit_price": 7.75,
+  "units_in_stock": 125,
+  "units_on_order": 0,
+  "reorder_level": 25,
+  "discontinued": 0,
+  "order_id": 10973,
+  "id": "7cc7823d-1ad1-4522-818b-5e3ea459da1d"
+}

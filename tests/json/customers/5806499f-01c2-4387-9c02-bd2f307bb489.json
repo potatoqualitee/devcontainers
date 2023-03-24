@@ -1,0 +1,15 @@
+{
+  "customer_id": "ERNSH",
+  "company_name": "Ernst Handel",
+  "contact_name": "Roland Mendel",
+  "contact_title": "Sales Manager",
+  "address": "Kirchgasse 6",
+  "city": "Graz",
+  "region": null,
+  "postal_code": "8010",
+  "country": "Austria",
+  "phone": "7675-3425",
+  "fax": "7675-3426",
+  "order_id": 10895,
+  "id": "5806499f-01c2-4387-9c02-bd2f307bb489"
+}

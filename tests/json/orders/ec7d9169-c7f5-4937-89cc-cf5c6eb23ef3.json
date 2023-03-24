@@ -1,0 +1,17 @@
+{
+  "order_id": 10381,
+  "customer_id": "LILAS",
+  "employee_id": 3,
+  "order_date": "1996-12-12T00:00:00",
+  "required_date": "1997-01-09T00:00:00",
+  "shipped_date": "1996-12-13T00:00:00",
+  "ship_via": 3,
+  "freight": 7.99,
+  "ship_name": "LILA-Supermercado",
+  "ship_address": "Carrera 52 con Ave. Bolívar #65-98 Llano Largo",
+  "ship_city": "Barquisimeto",
+  "ship_region": "Lara",
+  "ship_postal_code": "3508",
+  "ship_country": "Venezuela",
+  "id": "ec7d9169-c7f5-4937-89cc-cf5c6eb23ef3"
+}

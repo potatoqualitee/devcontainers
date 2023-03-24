@@ -1,0 +1,14 @@
+{
+  "product_id": 40,
+  "product_name": "Boston Crab Meat",
+  "supplier_id": 19,
+  "category_id": 8,
+  "quantity_per_unit": "24 - 4 oz tins",
+  "unit_price": 18.4,
+  "units_in_stock": 123,
+  "units_on_order": 0,
+  "reorder_level": 30,
+  "discontinued": 0,
+  "order_id": 10919,
+  "id": "0b20a1bf-aec2-455d-920c-e4e2550c5025"
+}

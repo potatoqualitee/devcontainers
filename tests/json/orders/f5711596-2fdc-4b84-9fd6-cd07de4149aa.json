@@ -1,0 +1,17 @@
+{
+  "order_id": 10881,
+  "customer_id": "CACTU",
+  "employee_id": 4,
+  "order_date": "1998-02-11T00:00:00",
+  "required_date": "1998-03-11T00:00:00",
+  "shipped_date": "1998-02-18T00:00:00",
+  "ship_via": 1,
+  "freight": 2.84,
+  "ship_name": "Cactus Comidas para llevar",
+  "ship_address": "Cerrito 333",
+  "ship_city": "Buenos Aires",
+  "ship_region": null,
+  "ship_postal_code": "1010",
+  "ship_country": "Argentina",
+  "id": "f5711596-2fdc-4b84-9fd6-cd07de4149aa"
+}

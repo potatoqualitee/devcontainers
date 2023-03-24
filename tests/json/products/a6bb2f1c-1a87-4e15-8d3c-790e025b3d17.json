@@ -1,0 +1,14 @@
+{
+  "product_id": 70,
+  "product_name": "Outback Lager",
+  "supplier_id": 7,
+  "category_id": 1,
+  "quantity_per_unit": "24 - 355 ml bottles",
+  "unit_price": 15.0,
+  "units_in_stock": 15,
+  "units_on_order": 10,
+  "reorder_level": 30,
+  "discontinued": 0,
+  "order_id": 10506,
+  "id": "a6bb2f1c-1a87-4e15-8d3c-790e025b3d17"
+}

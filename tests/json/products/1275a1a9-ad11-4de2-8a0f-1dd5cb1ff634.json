@@ -1,0 +1,14 @@
+{
+  "product_id": 52,
+  "product_name": "Filo Mix",
+  "supplier_id": 24,
+  "category_id": 5,
+  "quantity_per_unit": "16 - 2 kg boxes",
+  "unit_price": 7.0,
+  "units_in_stock": 38,
+  "units_on_order": 0,
+  "reorder_level": 25,
+  "discontinued": 0,
+  "order_id": 10334,
+  "id": "1275a1a9-ad11-4de2-8a0f-1dd5cb1ff634"
+}

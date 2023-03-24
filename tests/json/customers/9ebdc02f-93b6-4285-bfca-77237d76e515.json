@@ -1,0 +1,15 @@
+{
+  "customer_id": "ROMEY",
+  "company_name": "Romero y tomillo",
+  "contact_name": "Alejandra Camino",
+  "contact_title": "Accounting Manager",
+  "address": "Gran Vía, 1",
+  "city": "Madrid",
+  "region": null,
+  "postal_code": "28001",
+  "country": "Spain",
+  "phone": "(91) 745 6200",
+  "fax": "(91) 745 6210",
+  "order_id": 10917,
+  "id": "9ebdc02f-93b6-4285-bfca-77237d76e515"
+}

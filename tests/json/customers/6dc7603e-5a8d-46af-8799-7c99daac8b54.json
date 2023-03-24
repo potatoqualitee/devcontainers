@@ -1,0 +1,15 @@
+{
+  "customer_id": "RICSU",
+  "company_name": "Richter Supermarkt",
+  "contact_name": "Michael Holz",
+  "contact_title": "Sales Manager",
+  "address": "Grenzacherweg 237",
+  "city": "Genève",
+  "region": null,
+  "postal_code": "1203",
+  "country": "Switzerland",
+  "phone": "0897-034214",
+  "fax": null,
+  "order_id": 10931,
+  "id": "6dc7603e-5a8d-46af-8799-7c99daac8b54"
+}

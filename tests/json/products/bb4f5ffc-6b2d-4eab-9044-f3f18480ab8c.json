@@ -1,0 +1,14 @@
+{
+  "product_id": 2,
+  "product_name": "Chang",
+  "supplier_id": 1,
+  "category_id": 1,
+  "quantity_per_unit": "24 - 12 oz bottles",
+  "unit_price": 19.0,
+  "units_in_stock": 17,
+  "units_on_order": 40,
+  "reorder_level": 25,
+  "discontinued": 1,
+  "order_id": 10714,
+  "id": "bb4f5ffc-6b2d-4eab-9044-f3f18480ab8c"
+}

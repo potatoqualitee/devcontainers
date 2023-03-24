@@ -1,0 +1,14 @@
+{
+  "product_id": 14,
+  "product_name": "Tofu",
+  "supplier_id": 6,
+  "category_id": 7,
+  "quantity_per_unit": "40 - 100 g pkgs.",
+  "unit_price": 23.25,
+  "units_in_stock": 35,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10571,
+  "id": "90e16fbb-5f50-4797-ac9d-a8fba6c38e7d"
+}

@@ -1,0 +1,16 @@
+{
+  "supplier_id": 25,
+  "company_name": "Ma Maison",
+  "contact_name": "Jean-Guy Lauzon",
+  "contact_title": "Marketing Manager",
+  "address": "2960 Rue St. Laurent",
+  "city": "Montréal",
+  "region": "Québec",
+  "postal_code": "H1J 1C3",
+  "country": "Canada",
+  "phone": "(514) 555-9022",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10851,
+  "id": "e7a65560-af33-4eca-8707-952eaab68814"
+}

@@ -1,0 +1,15 @@
+{
+  "customer_id": "CENTC",
+  "company_name": "Centro comercial Moctezuma",
+  "contact_name": "Francisco Chang",
+  "contact_title": "Marketing Manager",
+  "address": "Sierras de Granada 9993",
+  "city": "México D.F.",
+  "region": null,
+  "postal_code": "05022",
+  "country": "Mexico",
+  "phone": "(5) 555-3392",
+  "fax": "(5) 555-7293",
+  "order_id": 10259,
+  "id": "e9ec08be-5d74-4c58-8c8a-73b13cdc2e32"
+}

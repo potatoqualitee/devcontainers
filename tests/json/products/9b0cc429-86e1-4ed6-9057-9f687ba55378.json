@@ -1,0 +1,14 @@
+{
+  "product_id": 26,
+  "product_name": "Gumbär Gummibärchen",
+  "supplier_id": 11,
+  "category_id": 3,
+  "quantity_per_unit": "100 - 250 g bags",
+  "unit_price": 31.23,
+  "units_in_stock": 15,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10357,
+  "id": "9b0cc429-86e1-4ed6-9057-9f687ba55378"
+}

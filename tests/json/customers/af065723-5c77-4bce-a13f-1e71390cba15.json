@@ -1,0 +1,15 @@
+{
+  "customer_id": "VICTE",
+  "company_name": "Victuailles en stock",
+  "contact_name": "Mary Saveley",
+  "contact_title": "Sales Agent",
+  "address": "2, rue du Commerce",
+  "city": "Lyon",
+  "region": null,
+  "postal_code": "69004",
+  "country": "France",
+  "phone": "78.32.54.86",
+  "fax": "78.32.54.87",
+  "order_id": 10459,
+  "id": "af065723-5c77-4bce-a13f-1e71390cba15"
+}

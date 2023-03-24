@@ -1,0 +1,14 @@
+{
+  "product_id": 15,
+  "product_name": "Genen Shouyu",
+  "supplier_id": 6,
+  "category_id": 2,
+  "quantity_per_unit": "24 - 250 ml bottles",
+  "unit_price": 13.0,
+  "units_in_stock": 39,
+  "units_on_order": 0,
+  "reorder_level": 5,
+  "discontinued": 0,
+  "order_id": 10323,
+  "id": "5f44ea27-b774-4ee7-84f6-3c510e78a797"
+}

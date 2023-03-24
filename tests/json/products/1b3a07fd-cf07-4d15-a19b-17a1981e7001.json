@@ -1,0 +1,14 @@
+{
+  "product_id": 37,
+  "product_name": "Gravad lax",
+  "supplier_id": 17,
+  "category_id": 8,
+  "quantity_per_unit": "12 - 500 g pkgs.",
+  "unit_price": 26.0,
+  "units_in_stock": 11,
+  "units_on_order": 50,
+  "reorder_level": 25,
+  "discontinued": 0,
+  "order_id": 10847,
+  "id": "1b3a07fd-cf07-4d15-a19b-17a1981e7001"
+}

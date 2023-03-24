@@ -1,0 +1,15 @@
+{
+  "customer_id": "GREAL",
+  "company_name": "Great Lakes Food Market",
+  "contact_name": "Howard Snyder",
+  "contact_title": "Marketing Manager",
+  "address": "2732 Baker Blvd.",
+  "city": "Eugene",
+  "region": "OR",
+  "postal_code": "97403",
+  "country": "USA",
+  "phone": "(503) 555-7555",
+  "fax": null,
+  "order_id": 10528,
+  "id": "331abc4b-9cc7-4ee4-a5ed-c5a27d6f4782"
+}

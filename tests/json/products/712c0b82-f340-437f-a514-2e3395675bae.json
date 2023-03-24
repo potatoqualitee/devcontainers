@@ -1,0 +1,14 @@
+{
+  "product_id": 11,
+  "product_name": "Queso Cabrales",
+  "supplier_id": 5,
+  "category_id": 4,
+  "quantity_per_unit": "1 kg pkg.",
+  "unit_price": 21.0,
+  "units_in_stock": 22,
+  "units_on_order": 30,
+  "reorder_level": 30,
+  "discontinued": 0,
+  "order_id": 10566,
+  "id": "712c0b82-f340-437f-a514-2e3395675bae"
+}

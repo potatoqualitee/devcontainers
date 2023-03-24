@@ -1,0 +1,17 @@
+{
+  "order_id": 10305,
+  "customer_id": "OLDWO",
+  "employee_id": 8,
+  "order_date": "1996-09-13T00:00:00",
+  "required_date": "1996-10-11T00:00:00",
+  "shipped_date": "1996-10-09T00:00:00",
+  "ship_via": 3,
+  "freight": 257.62,
+  "ship_name": "Old World Delicatessen",
+  "ship_address": "2743 Bering St.",
+  "ship_city": "Anchorage",
+  "ship_region": "AK",
+  "ship_postal_code": "99508",
+  "ship_country": "USA",
+  "id": "2afd47f7-d5cf-435d-99ed-8807cdf95805"
+}

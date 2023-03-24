@@ -1,0 +1,17 @@
+{
+  "order_id": 10655,
+  "customer_id": "REGGC",
+  "employee_id": 1,
+  "order_date": "1997-09-03T00:00:00",
+  "required_date": "1997-10-01T00:00:00",
+  "shipped_date": "1997-09-11T00:00:00",
+  "ship_via": 2,
+  "freight": 4.41,
+  "ship_name": "Reggiani Caseifici",
+  "ship_address": "Strada Provinciale 124",
+  "ship_city": "Reggio Emilia",
+  "ship_region": null,
+  "ship_postal_code": "42100",
+  "ship_country": "Italy",
+  "id": "a233b974-89f1-4b6a-bb7a-0ff1d2ed03e7"
+}

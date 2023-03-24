@@ -1,0 +1,14 @@
+{
+  "product_id": 3,
+  "product_name": "Aniseed Syrup",
+  "supplier_id": 1,
+  "category_id": 2,
+  "quantity_per_unit": "12 - 550 ml bottles",
+  "unit_price": 10.0,
+  "units_in_stock": 13,
+  "units_on_order": 70,
+  "reorder_level": 25,
+  "discontinued": 0,
+  "order_id": 10742,
+  "id": "c85c9b72-e5dd-461e-8e3b-9f2ebd388824"
+}

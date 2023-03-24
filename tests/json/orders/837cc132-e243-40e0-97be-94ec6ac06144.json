@@ -1,0 +1,17 @@
+{
+  "order_id": 10645,
+  "customer_id": "HANAR",
+  "employee_id": 4,
+  "order_date": "1997-08-26T00:00:00",
+  "required_date": "1997-09-23T00:00:00",
+  "shipped_date": "1997-09-02T00:00:00",
+  "ship_via": 1,
+  "freight": 12.41,
+  "ship_name": "Hanari Carnes",
+  "ship_address": "Rua do Paço, 67",
+  "ship_city": "Rio de Janeiro",
+  "ship_region": "RJ",
+  "ship_postal_code": "05454-876",
+  "ship_country": "Brazil",
+  "id": "837cc132-e243-40e0-97be-94ec6ac06144"
+}

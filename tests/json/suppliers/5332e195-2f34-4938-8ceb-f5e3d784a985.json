@@ -1,0 +1,16 @@
+{
+  "supplier_id": 2,
+  "company_name": "New Orleans Cajun Delights",
+  "contact_name": "Shelley Burke",
+  "contact_title": "Order Administrator",
+  "address": "P.O. Box 78934",
+  "city": "New Orleans",
+  "region": "LA",
+  "postal_code": "70117",
+  "country": "USA",
+  "phone": "(100) 555-4822",
+  "fax": null,
+  "homepage": "#CAJUN.HTM#",
+  "order_id": 10298,
+  "id": "5332e195-2f34-4938-8ceb-f5e3d784a985"
+}

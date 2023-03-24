@@ -1,0 +1,17 @@
+{
+  "order_id": 10762,
+  "customer_id": "FOLKO",
+  "employee_id": 3,
+  "order_date": "1997-12-02T00:00:00",
+  "required_date": "1997-12-30T00:00:00",
+  "shipped_date": "1997-12-09T00:00:00",
+  "ship_via": 1,
+  "freight": 328.74,
+  "ship_name": "Folk och fä HB",
+  "ship_address": "Åkergatan 24",
+  "ship_city": "Bräcke",
+  "ship_region": null,
+  "ship_postal_code": "S-844 67",
+  "ship_country": "Sweden",
+  "id": "e203feaa-bca7-453d-8828-aa17baeef864"
+}

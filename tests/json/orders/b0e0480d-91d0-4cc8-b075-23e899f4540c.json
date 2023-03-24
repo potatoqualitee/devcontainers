@@ -1,0 +1,17 @@
+{
+  "order_id": 10520,
+  "customer_id": "SANTG",
+  "employee_id": 7,
+  "order_date": "1997-04-29T00:00:00",
+  "required_date": "1997-05-27T00:00:00",
+  "shipped_date": "1997-05-01T00:00:00",
+  "ship_via": 1,
+  "freight": 13.37,
+  "ship_name": "Santé Gourmet",
+  "ship_address": "Erling Skakkes gate 78",
+  "ship_city": "Stavern",
+  "ship_region": null,
+  "ship_postal_code": "4110",
+  "ship_country": "Norway",
+  "id": "b0e0480d-91d0-4cc8-b075-23e899f4540c"
+}

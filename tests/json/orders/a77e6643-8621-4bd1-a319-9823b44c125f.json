@@ -1,0 +1,17 @@
+{
+  "order_id": 10268,
+  "customer_id": "GROSR",
+  "employee_id": 8,
+  "order_date": "1996-07-30T00:00:00",
+  "required_date": "1996-08-27T00:00:00",
+  "shipped_date": "1996-08-02T00:00:00",
+  "ship_via": 3,
+  "freight": 66.29,
+  "ship_name": "GROSELLA-Restaurante",
+  "ship_address": "5ª Ave. Los Palos Grandes",
+  "ship_city": "Caracas",
+  "ship_region": "DF",
+  "ship_postal_code": "1081",
+  "ship_country": "Venezuela",
+  "id": "a77e6643-8621-4bd1-a319-9823b44c125f"
+}

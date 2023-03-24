@@ -1,0 +1,14 @@
+{
+  "product_id": 67,
+  "product_name": "Laughing Lumberjack Lager",
+  "supplier_id": 16,
+  "category_id": 1,
+  "quantity_per_unit": "24 - 12 oz bottles",
+  "unit_price": 14.0,
+  "units_in_stock": 52,
+  "units_on_order": 0,
+  "reorder_level": 10,
+  "discontinued": 0,
+  "order_id": 10284,
+  "id": "57376f53-113a-4a39-8beb-4bb6a5519fdc"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10462,
+  "customer_id": "CONSH",
+  "employee_id": 2,
+  "order_date": "1997-03-03T00:00:00",
+  "required_date": "1997-03-31T00:00:00",
+  "shipped_date": "1997-03-18T00:00:00",
+  "ship_via": 1,
+  "freight": 6.17,
+  "ship_name": "Consolidated Holdings",
+  "ship_address": "Berkeley Gardens 12  Brewery",
+  "ship_city": "London",
+  "ship_region": null,
+  "ship_postal_code": "WX1 6LT",
+  "ship_country": "UK",
+  "id": "823ed18d-ebfb-480d-bf32-ec0f17f09b9c"
+}

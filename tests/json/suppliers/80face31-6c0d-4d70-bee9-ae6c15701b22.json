@@ -1,0 +1,16 @@
+{
+  "supplier_id": 1,
+  "company_name": "Exotic Liquids",
+  "contact_name": "Charlotte Cooper",
+  "contact_title": "Purchasing Manager",
+  "address": "49 Gilbert St.",
+  "city": "London",
+  "region": null,
+  "postal_code": "EC1 4SD",
+  "country": "UK",
+  "phone": "(171) 555-2222",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10317,
+  "id": "80face31-6c0d-4d70-bee9-ae6c15701b22"
+}

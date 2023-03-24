@@ -1,0 +1,14 @@
+{
+  "product_id": 33,
+  "product_name": "Geitost",
+  "supplier_id": 15,
+  "category_id": 4,
+  "quantity_per_unit": "500 g",
+  "unit_price": 2.5,
+  "units_in_stock": 112,
+  "units_on_order": 0,
+  "reorder_level": 20,
+  "discontinued": 0,
+  "order_id": 10454,
+  "id": "ab531d85-309a-4b21-a4d8-7ee28be4b31b"
+}

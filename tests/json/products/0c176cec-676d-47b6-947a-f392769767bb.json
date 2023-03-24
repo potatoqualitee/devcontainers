@@ -1,0 +1,14 @@
+{
+  "product_id": 65,
+  "product_name": "Louisiana Fiery Hot Pepper Sauce",
+  "supplier_id": 2,
+  "category_id": 2,
+  "quantity_per_unit": "32 - 8 oz bottles",
+  "unit_price": 21.05,
+  "units_in_stock": 76,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10366,
+  "id": "0c176cec-676d-47b6-947a-f392769767bb"
+}

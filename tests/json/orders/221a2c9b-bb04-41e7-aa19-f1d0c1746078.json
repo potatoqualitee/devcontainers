@@ -1,0 +1,17 @@
+{
+  "order_id": 10545,
+  "customer_id": "LAZYK",
+  "employee_id": 8,
+  "order_date": "1997-05-22T00:00:00",
+  "required_date": "1997-06-19T00:00:00",
+  "shipped_date": "1997-06-26T00:00:00",
+  "ship_via": 2,
+  "freight": 11.92,
+  "ship_name": "Lazy K Kountry Store",
+  "ship_address": "12 Orchestra Terrace",
+  "ship_city": "Walla Walla",
+  "ship_region": "WA",
+  "ship_postal_code": "99362",
+  "ship_country": "USA",
+  "id": "221a2c9b-bb04-41e7-aa19-f1d0c1746078"
+}

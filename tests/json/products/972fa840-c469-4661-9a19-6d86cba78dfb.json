@@ -1,0 +1,14 @@
+{
+  "product_id": 20,
+  "product_name": "Sir Rodney's Marmalade",
+  "supplier_id": 8,
+  "category_id": 3,
+  "quantity_per_unit": "30 gift boxes",
+  "unit_price": 81.0,
+  "units_in_stock": 40,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 11021,
+  "id": "972fa840-c469-4661-9a19-6d86cba78dfb"
+}

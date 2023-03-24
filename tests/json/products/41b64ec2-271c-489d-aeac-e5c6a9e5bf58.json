@@ -1,0 +1,14 @@
+{
+  "product_id": 53,
+  "product_name": "Perth Pasties",
+  "supplier_id": 24,
+  "category_id": 6,
+  "quantity_per_unit": "48 pieces",
+  "unit_price": 32.8,
+  "units_in_stock": 0,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10421,
+  "id": "41b64ec2-271c-489d-aeac-e5c6a9e5bf58"
+}

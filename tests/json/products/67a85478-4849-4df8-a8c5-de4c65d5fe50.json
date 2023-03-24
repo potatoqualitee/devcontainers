@@ -1,0 +1,14 @@
+{
+  "product_id": 36,
+  "product_name": "Inlagd Sill",
+  "supplier_id": 17,
+  "category_id": 8,
+  "quantity_per_unit": "24 - 250 g  jars",
+  "unit_price": 19.0,
+  "units_in_stock": 112,
+  "units_on_order": 0,
+  "reorder_level": 20,
+  "discontinued": 0,
+  "order_id": 10371,
+  "id": "67a85478-4849-4df8-a8c5-de4c65d5fe50"
+}

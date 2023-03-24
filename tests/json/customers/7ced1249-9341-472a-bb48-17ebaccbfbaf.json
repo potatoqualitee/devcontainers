@@ -1,0 +1,15 @@
+{
+  "customer_id": "CHOPS",
+  "company_name": "Chop-suey Chinese",
+  "contact_name": "Yang Wang",
+  "contact_title": "Owner",
+  "address": "Hauptstr. 29",
+  "city": "Bern",
+  "region": null,
+  "postal_code": "3012",
+  "country": "Switzerland",
+  "phone": "0452-076545",
+  "fax": null,
+  "order_id": 11029,
+  "id": "7ced1249-9341-472a-bb48-17ebaccbfbaf"
+}

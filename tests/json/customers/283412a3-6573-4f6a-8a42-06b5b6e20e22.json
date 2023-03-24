@@ -1,0 +1,15 @@
+{
+  "customer_id": "LAMAI",
+  "company_name": "La maison d'Asie",
+  "contact_name": "Annette Roulet",
+  "contact_title": "Sales Manager",
+  "address": "1 rue Alsace-Lorraine",
+  "city": "Toulouse",
+  "region": null,
+  "postal_code": "31000",
+  "country": "France",
+  "phone": "61.77.61.10",
+  "fax": "61.77.61.11",
+  "order_id": 11051,
+  "id": "283412a3-6573-4f6a-8a42-06b5b6e20e22"
+}

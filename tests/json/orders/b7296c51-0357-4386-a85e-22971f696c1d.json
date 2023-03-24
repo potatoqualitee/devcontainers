@@ -1,0 +1,17 @@
+{
+  "order_id": 10685,
+  "customer_id": "GOURL",
+  "employee_id": 4,
+  "order_date": "1997-09-29T00:00:00",
+  "required_date": "1997-10-13T00:00:00",
+  "shipped_date": "1997-10-03T00:00:00",
+  "ship_via": 2,
+  "freight": 33.75,
+  "ship_name": "Gourmet Lanchonetes",
+  "ship_address": "Av. Brasil, 442",
+  "ship_city": "Campinas",
+  "ship_region": "SP",
+  "ship_postal_code": "04876-786",
+  "ship_country": "Brazil",
+  "id": "b7296c51-0357-4386-a85e-22971f696c1d"
+}

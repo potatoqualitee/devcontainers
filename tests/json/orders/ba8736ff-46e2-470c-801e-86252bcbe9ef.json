@@ -1,0 +1,17 @@
+{
+  "order_id": 10926,
+  "customer_id": "ANATR",
+  "employee_id": 4,
+  "order_date": "1998-03-04T00:00:00",
+  "required_date": "1998-04-01T00:00:00",
+  "shipped_date": "1998-03-11T00:00:00",
+  "ship_via": 3,
+  "freight": 39.92,
+  "ship_name": "Ana Trujillo Emparedados y helados",
+  "ship_address": "Avda. de la Constitución 2222",
+  "ship_city": "México D.F.",
+  "ship_region": null,
+  "ship_postal_code": "05021",
+  "ship_country": "Mexico",
+  "id": "ba8736ff-46e2-470c-801e-86252bcbe9ef"
+}

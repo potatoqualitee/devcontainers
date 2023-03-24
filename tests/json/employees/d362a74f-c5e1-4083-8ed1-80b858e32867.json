@@ -1,0 +1,22 @@
+{
+  "employee_id": 2,
+  "last_name": "Fuller",
+  "first_name": "Andrew",
+  "title": "Vice President, Sales",
+  "title_of_courtesy": "Dr.",
+  "birth_date": "1952-02-19T00:00:00",
+  "hire_date": "1992-08-14T00:00:00",
+  "address": "908 W. Capital Way",
+  "city": "Tacoma",
+  "region": "WA",
+  "postal_code": "98401",
+  "country": "USA",
+  "home_phone": "(206) 555-9482",
+  "extension": "3457",
+  "photo": [],
+  "notes": "Andrew received his BTS commercial in 1974 and a Ph.D. in international marketing from the University of Dallas in 1981.  He is fluent in French and Italian and reads German.  He joined the company as a sales representative, was promoted to sales manager in January 1992 and to vice president of sales in March 1993.  Andrew is a member of the Sales Management Roundtable, the Seattle Chamber of Commerce, and the Pacific Rim Importers Association.",
+  "reports_to": null,
+  "photo_path": "http://accweb/emmployees/fuller.bmp",
+  "order_id": 10462,
+  "id": "d362a74f-c5e1-4083-8ed1-80b858e32867"
+}

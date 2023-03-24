@@ -1,0 +1,17 @@
+{
+  "order_id": 10254,
+  "customer_id": "CHOPS",
+  "employee_id": 5,
+  "order_date": "1996-07-11T00:00:00",
+  "required_date": "1996-08-08T00:00:00",
+  "shipped_date": "1996-07-23T00:00:00",
+  "ship_via": 2,
+  "freight": 22.98,
+  "ship_name": "Chop-suey Chinese",
+  "ship_address": "Hauptstr. 31",
+  "ship_city": "Bern",
+  "ship_region": null,
+  "ship_postal_code": "3012",
+  "ship_country": "Switzerland",
+  "id": "46fe4a87-4319-4c7f-a498-d8b3203b3d8f"
+}

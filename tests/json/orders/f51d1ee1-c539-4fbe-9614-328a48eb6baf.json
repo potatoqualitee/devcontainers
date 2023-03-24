@@ -1,0 +1,17 @@
+{
+  "order_id": 10683,
+  "customer_id": "DUMON",
+  "employee_id": 2,
+  "order_date": "1997-09-26T00:00:00",
+  "required_date": "1997-10-24T00:00:00",
+  "shipped_date": "1997-10-01T00:00:00",
+  "ship_via": 1,
+  "freight": 4.4,
+  "ship_name": "Du monde entier",
+  "ship_address": "67, rue des Cinquante Otages",
+  "ship_city": "Nantes",
+  "ship_region": null,
+  "ship_postal_code": "44000",
+  "ship_country": "France",
+  "id": "f51d1ee1-c539-4fbe-9614-328a48eb6baf"
+}

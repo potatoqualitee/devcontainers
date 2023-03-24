@@ -1,0 +1,17 @@
+{
+  "order_id": 10466,
+  "customer_id": "COMMI",
+  "employee_id": 4,
+  "order_date": "1997-03-06T00:00:00",
+  "required_date": "1997-04-03T00:00:00",
+  "shipped_date": "1997-03-13T00:00:00",
+  "ship_via": 1,
+  "freight": 11.93,
+  "ship_name": "Comércio Mineiro",
+  "ship_address": "Av. dos Lusíadas, 23",
+  "ship_city": "Sao Paulo",
+  "ship_region": "SP",
+  "ship_postal_code": "05432-043",
+  "ship_country": "Brazil",
+  "id": "ada90664-1e82-46ee-b1ef-c41041072d3e"
+}

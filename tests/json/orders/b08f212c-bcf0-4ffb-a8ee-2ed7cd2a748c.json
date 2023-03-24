@@ -1,0 +1,17 @@
+{
+  "order_id": 10954,
+  "customer_id": "LINOD",
+  "employee_id": 5,
+  "order_date": "1998-03-17T00:00:00",
+  "required_date": "1998-04-28T00:00:00",
+  "shipped_date": "1998-03-20T00:00:00",
+  "ship_via": 1,
+  "freight": 27.91,
+  "ship_name": "LINO-Delicateses",
+  "ship_address": "Ave. 5 de Mayo Porlamar",
+  "ship_city": "I. de Margarita",
+  "ship_region": "Nueva Esparta",
+  "ship_postal_code": "4980",
+  "ship_country": "Venezuela",
+  "id": "b08f212c-bcf0-4ffb-a8ee-2ed7cd2a748c"
+}

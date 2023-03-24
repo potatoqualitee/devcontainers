@@ -1,0 +1,17 @@
+{
+  "order_id": 10650,
+  "customer_id": "FAMIA",
+  "employee_id": 5,
+  "order_date": "1997-08-29T00:00:00",
+  "required_date": "1997-09-26T00:00:00",
+  "shipped_date": "1997-09-03T00:00:00",
+  "ship_via": 3,
+  "freight": 176.81,
+  "ship_name": "Familia Arquibaldo",
+  "ship_address": "Rua Orós, 92",
+  "ship_city": "Sao Paulo",
+  "ship_region": "SP",
+  "ship_postal_code": "05442-030",
+  "ship_country": "Brazil",
+  "id": "cfd188ca-120f-43f6-903d-6053a476b84e"
+}

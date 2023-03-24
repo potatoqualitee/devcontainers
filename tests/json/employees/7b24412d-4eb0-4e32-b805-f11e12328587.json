@@ -1,0 +1,22 @@
+{
+  "employee_id": 5,
+  "last_name": "Buchanan",
+  "first_name": "Steven",
+  "title": "Sales Manager",
+  "title_of_courtesy": "Mr.",
+  "birth_date": "1955-03-04T00:00:00",
+  "hire_date": "1993-10-17T00:00:00",
+  "address": "14 Garrett Hill",
+  "city": "London",
+  "region": null,
+  "postal_code": "SW1 8JR",
+  "country": "UK",
+  "home_phone": "(71) 555-4848",
+  "extension": "3453",
+  "photo": [],
+  "notes": "Steven Buchanan graduated from St. Andrews University, Scotland, with a BSC degree in 1976.  Upon joining the company as a sales representative in 1992, he spent 6 months in an orientation program at the Seattle office and then returned to his permanent post in London.  He was promoted to sales manager in March 1993.  Mr. Buchanan has completed the courses Successful Telemarketing and International Sales Management.  He is fluent in French.",
+  "reports_to": 2,
+  "photo_path": "http://accweb/emmployees/buchanan.bmp",
+  "order_id": 10607,
+  "id": "7b24412d-4eb0-4e32-b805-f11e12328587"
+}

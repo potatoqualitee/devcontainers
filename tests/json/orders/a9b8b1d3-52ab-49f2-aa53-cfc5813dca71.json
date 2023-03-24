@@ -1,0 +1,17 @@
+{
+  "order_id": 10672,
+  "customer_id": "BERGS",
+  "employee_id": 9,
+  "order_date": "1997-09-17T00:00:00",
+  "required_date": "1997-10-01T00:00:00",
+  "shipped_date": "1997-09-26T00:00:00",
+  "ship_via": 2,
+  "freight": 95.75,
+  "ship_name": "Berglunds snabbköp",
+  "ship_address": "Berguvsvägen  8",
+  "ship_city": "Luleå",
+  "ship_region": null,
+  "ship_postal_code": "S-958 22",
+  "ship_country": "Sweden",
+  "id": "a9b8b1d3-52ab-49f2-aa53-cfc5813dca71"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10265,
+  "customer_id": "BLONP",
+  "employee_id": 2,
+  "order_date": "1996-07-25T00:00:00",
+  "required_date": "1996-08-22T00:00:00",
+  "shipped_date": "1996-08-12T00:00:00",
+  "ship_via": 1,
+  "freight": 55.28,
+  "ship_name": "Blondel père et fils",
+  "ship_address": "24, place Kléber",
+  "ship_city": "Strasbourg",
+  "ship_region": null,
+  "ship_postal_code": "67000",
+  "ship_country": "France",
+  "id": "1114a226-2e30-4db6-8830-62bcf0192869"
+}

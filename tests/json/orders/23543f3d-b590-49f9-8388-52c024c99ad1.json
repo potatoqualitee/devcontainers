@@ -1,0 +1,17 @@
+{
+  "order_id": 10938,
+  "customer_id": "QUICK",
+  "employee_id": 3,
+  "order_date": "1998-03-10T00:00:00",
+  "required_date": "1998-04-07T00:00:00",
+  "shipped_date": "1998-03-16T00:00:00",
+  "ship_via": 2,
+  "freight": 31.89,
+  "ship_name": "QUICK-Stop",
+  "ship_address": "Taucherstraße 10",
+  "ship_city": "Cunewalde",
+  "ship_region": null,
+  "ship_postal_code": "01307",
+  "ship_country": "Germany",
+  "id": "23543f3d-b590-49f9-8388-52c024c99ad1"
+}

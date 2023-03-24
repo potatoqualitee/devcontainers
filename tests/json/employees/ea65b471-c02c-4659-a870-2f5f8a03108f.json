@@ -1,0 +1,22 @@
+{
+  "employee_id": 8,
+  "last_name": "Callahan",
+  "first_name": "Laura",
+  "title": "Inside Sales Coordinator",
+  "title_of_courtesy": "Ms.",
+  "birth_date": "1958-01-09T00:00:00",
+  "hire_date": "1994-03-05T00:00:00",
+  "address": "4726 - 11th Ave. N.E.",
+  "city": "Seattle",
+  "region": "WA",
+  "postal_code": "98105",
+  "country": "USA",
+  "home_phone": "(206) 555-1189",
+  "extension": "2344",
+  "photo": [],
+  "notes": "Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French.",
+  "reports_to": 2,
+  "photo_path": "http://accweb/emmployees/davolio.bmp",
+  "order_id": 10262,
+  "id": "ea65b471-c02c-4659-a870-2f5f8a03108f"
+}

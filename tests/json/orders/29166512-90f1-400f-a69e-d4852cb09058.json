@@ -1,0 +1,17 @@
+{
+  "order_id": 10676,
+  "customer_id": "TORTU",
+  "employee_id": 2,
+  "order_date": "1997-09-22T00:00:00",
+  "required_date": "1997-10-20T00:00:00",
+  "shipped_date": "1997-09-29T00:00:00",
+  "ship_via": 2,
+  "freight": 2.01,
+  "ship_name": "Tortuga Restaurante",
+  "ship_address": "Avda. Azteca 123",
+  "ship_city": "México D.F.",
+  "ship_region": null,
+  "ship_postal_code": "05033",
+  "ship_country": "Mexico",
+  "id": "29166512-90f1-400f-a69e-d4852cb09058"
+}

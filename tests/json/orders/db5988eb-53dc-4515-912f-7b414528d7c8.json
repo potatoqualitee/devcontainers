@@ -1,0 +1,17 @@
+{
+  "order_id": 11025,
+  "customer_id": "WARTH",
+  "employee_id": 6,
+  "order_date": "1998-04-15T00:00:00",
+  "required_date": "1998-05-13T00:00:00",
+  "shipped_date": "1998-04-24T00:00:00",
+  "ship_via": 3,
+  "freight": 29.17,
+  "ship_name": "Wartian Herkku",
+  "ship_address": "Torikatu 38",
+  "ship_city": "Oulu",
+  "ship_region": null,
+  "ship_postal_code": "90110",
+  "ship_country": "Finland",
+  "id": "db5988eb-53dc-4515-912f-7b414528d7c8"
+}

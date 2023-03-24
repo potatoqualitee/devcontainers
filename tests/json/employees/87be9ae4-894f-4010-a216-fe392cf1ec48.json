@@ -1,0 +1,22 @@
+{
+  "employee_id": 9,
+  "last_name": "Dodsworth",
+  "first_name": "Anne",
+  "title": "Sales Representative",
+  "title_of_courtesy": "Ms.",
+  "birth_date": "1966-01-27T00:00:00",
+  "hire_date": "1994-11-15T00:00:00",
+  "address": "7 Houndstooth Rd.",
+  "city": "London",
+  "region": null,
+  "postal_code": "WG2 7LT",
+  "country": "UK",
+  "home_phone": "(71) 555-4444",
+  "extension": "452",
+  "photo": [],
+  "notes": "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.",
+  "reports_to": 5,
+  "photo_path": "http://accweb/emmployees/davolio.bmp",
+  "order_id": 10829,
+  "id": "87be9ae4-894f-4010-a216-fe392cf1ec48"
+}

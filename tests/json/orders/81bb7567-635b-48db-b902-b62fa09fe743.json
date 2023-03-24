@@ -1,0 +1,17 @@
+{
+  "order_id": 10396,
+  "customer_id": "FRANK",
+  "employee_id": 1,
+  "order_date": "1996-12-27T00:00:00",
+  "required_date": "1997-01-10T00:00:00",
+  "shipped_date": "1997-01-06T00:00:00",
+  "ship_via": 3,
+  "freight": 135.35,
+  "ship_name": "Frankenversand",
+  "ship_address": "Berliner Platz 43",
+  "ship_city": "München",
+  "ship_region": null,
+  "ship_postal_code": "80805",
+  "ship_country": "Germany",
+  "id": "81bb7567-635b-48db-b902-b62fa09fe743"
+}

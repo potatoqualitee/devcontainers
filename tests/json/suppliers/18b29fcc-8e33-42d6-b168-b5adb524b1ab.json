@@ -1,0 +1,16 @@
+{
+  "supplier_id": 8,
+  "company_name": "Specialty Biscuits, Ltd.",
+  "contact_name": "Peter Wilson",
+  "contact_title": "Sales Representative",
+  "address": "29 King's Way",
+  "city": "Manchester",
+  "region": null,
+  "postal_code": "M14 GSD",
+  "country": "UK",
+  "phone": "(161) 555-4448",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10344,
+  "id": "18b29fcc-8e33-42d6-b168-b5adb524b1ab"
+}

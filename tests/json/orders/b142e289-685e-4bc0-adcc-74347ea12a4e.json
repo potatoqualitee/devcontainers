@@ -1,0 +1,17 @@
+{
+  "order_id": 11024,
+  "customer_id": "EASTC",
+  "employee_id": 4,
+  "order_date": "1998-04-15T00:00:00",
+  "required_date": "1998-05-13T00:00:00",
+  "shipped_date": "1998-04-20T00:00:00",
+  "ship_via": 1,
+  "freight": 74.36,
+  "ship_name": "Eastern Connection",
+  "ship_address": "35 King George",
+  "ship_city": "London",
+  "ship_region": null,
+  "ship_postal_code": "WX3 6FW",
+  "ship_country": "UK",
+  "id": "b142e289-685e-4bc0-adcc-74347ea12a4e"
+}

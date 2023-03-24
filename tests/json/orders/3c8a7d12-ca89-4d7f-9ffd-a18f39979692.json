@@ -1,0 +1,17 @@
+{
+  "order_id": 10535,
+  "customer_id": "ANTON",
+  "employee_id": 4,
+  "order_date": "1997-05-13T00:00:00",
+  "required_date": "1997-06-10T00:00:00",
+  "shipped_date": "1997-05-21T00:00:00",
+  "ship_via": 1,
+  "freight": 15.64,
+  "ship_name": "Antonio Moreno Taquería",
+  "ship_address": "Mataderos  2312",
+  "ship_city": "México D.F.",
+  "ship_region": null,
+  "ship_postal_code": "05023",
+  "ship_country": "Mexico",
+  "id": "3c8a7d12-ca89-4d7f-9ffd-a18f39979692"
+}

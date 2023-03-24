@@ -1,0 +1,14 @@
+{
+  "product_id": 71,
+  "product_name": "Flotemysost",
+  "supplier_id": 15,
+  "category_id": 4,
+  "quantity_per_unit": "10 - 500 g pkgs.",
+  "unit_price": 21.5,
+  "units_in_stock": 26,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10378,
+  "id": "6b2b7e18-dd1d-4b6f-ad71-c31a550e0071"
+}

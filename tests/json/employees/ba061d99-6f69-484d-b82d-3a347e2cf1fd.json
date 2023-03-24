@@ -1,0 +1,22 @@
+{
+  "employee_id": 6,
+  "last_name": "Suyama",
+  "first_name": "Michael",
+  "title": "Sales Representative",
+  "title_of_courtesy": "Mr.",
+  "birth_date": "1963-07-02T00:00:00",
+  "hire_date": "1993-10-17T00:00:00",
+  "address": "Coventry House\\nMiner Rd.",
+  "city": "London",
+  "region": null,
+  "postal_code": "EC2 7JR",
+  "country": "UK",
+  "home_phone": "(71) 555-7773",
+  "extension": "428",
+  "photo": [],
+  "notes": "Michael is a graduate of Sussex University (MA, economics, 1983) and the University of California at Los Angeles (MBA, marketing, 1986).  He has also taken the courses Multi-Cultural Selling and Time Management for the Sales Professional.  He is fluent in Japanese and can read and write French, Portuguese, and Spanish.",
+  "reports_to": 5,
+  "photo_path": "http://accweb/emmployees/davolio.bmp",
+  "order_id": 10264,
+  "id": "ba061d99-6f69-484d-b82d-3a347e2cf1fd"
+}

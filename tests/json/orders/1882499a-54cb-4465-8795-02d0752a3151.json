@@ -1,0 +1,17 @@
+{
+  "order_id": 11074,
+  "customer_id": "SIMOB",
+  "employee_id": 7,
+  "order_date": "1998-05-06T00:00:00",
+  "required_date": "1998-06-03T00:00:00",
+  "shipped_date": null,
+  "ship_via": 2,
+  "freight": 18.44,
+  "ship_name": "Simons bistro",
+  "ship_address": "Vinbæltet 34",
+  "ship_city": "Kobenhavn",
+  "ship_region": null,
+  "ship_postal_code": "1734",
+  "ship_country": "Denmark",
+  "id": "1882499a-54cb-4465-8795-02d0752a3151"
+}

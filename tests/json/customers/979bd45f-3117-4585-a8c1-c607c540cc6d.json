@@ -1,0 +1,15 @@
+{
+  "customer_id": "ANTON",
+  "company_name": "Antonio Moreno Taquería",
+  "contact_name": "Antonio Moreno",
+  "contact_title": "Owner",
+  "address": "Mataderos  2312",
+  "city": "México D.F.",
+  "region": null,
+  "postal_code": "05023",
+  "country": "Mexico",
+  "phone": "(5) 555-3932",
+  "fax": null,
+  "order_id": 10535,
+  "id": "979bd45f-3117-4585-a8c1-c607c540cc6d"
+}

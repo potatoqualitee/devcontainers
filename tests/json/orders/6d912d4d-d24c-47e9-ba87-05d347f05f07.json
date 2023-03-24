@@ -1,0 +1,17 @@
+{
+  "order_id": 10421,
+  "customer_id": "QUEDE",
+  "employee_id": 8,
+  "order_date": "1997-01-21T00:00:00",
+  "required_date": "1997-03-04T00:00:00",
+  "shipped_date": "1997-01-27T00:00:00",
+  "ship_via": 1,
+  "freight": 99.23,
+  "ship_name": "Que Delícia",
+  "ship_address": "Rua da Panificadora, 12",
+  "ship_city": "Rio de Janeiro",
+  "ship_region": "RJ",
+  "ship_postal_code": "02389-673",
+  "ship_country": "Brazil",
+  "id": "6d912d4d-d24c-47e9-ba87-05d347f05f07"
+}

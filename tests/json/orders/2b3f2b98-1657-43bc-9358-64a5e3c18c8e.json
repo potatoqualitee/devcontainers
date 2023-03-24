@@ -1,0 +1,17 @@
+{
+  "order_id": 10295,
+  "customer_id": "VINET",
+  "employee_id": 2,
+  "order_date": "1996-09-02T00:00:00",
+  "required_date": "1996-09-30T00:00:00",
+  "shipped_date": "1996-09-10T00:00:00",
+  "ship_via": 2,
+  "freight": 1.15,
+  "ship_name": "Vins et alcools Chevalier",
+  "ship_address": "59 rue de l'Abbaye",
+  "ship_city": "Reims",
+  "ship_region": null,
+  "ship_postal_code": "51100",
+  "ship_country": "France",
+  "id": "2b3f2b98-1657-43bc-9358-64a5e3c18c8e"
+}

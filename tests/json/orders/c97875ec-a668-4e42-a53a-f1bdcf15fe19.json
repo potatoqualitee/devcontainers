@@ -1,0 +1,17 @@
+{
+  "order_id": 10591,
+  "customer_id": "VAFFE",
+  "employee_id": 1,
+  "order_date": "1997-07-07T00:00:00",
+  "required_date": "1997-07-21T00:00:00",
+  "shipped_date": "1997-07-16T00:00:00",
+  "ship_via": 1,
+  "freight": 55.92,
+  "ship_name": "Vaffeljernet",
+  "ship_address": "Smagsloget 45",
+  "ship_city": "Århus",
+  "ship_region": null,
+  "ship_postal_code": "8200",
+  "ship_country": "Denmark",
+  "id": "c97875ec-a668-4e42-a53a-f1bdcf15fe19"
+}

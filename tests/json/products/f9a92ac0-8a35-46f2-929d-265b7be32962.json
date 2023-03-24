@@ -1,0 +1,14 @@
+{
+  "product_id": 7,
+  "product_name": "Uncle Bob's Organic Dried Pears",
+  "supplier_id": 3,
+  "category_id": 7,
+  "quantity_per_unit": "12 - 1 lb pkgs.",
+  "unit_price": 30.0,
+  "units_in_stock": 15,
+  "units_on_order": 0,
+  "reorder_level": 10,
+  "discontinued": 0,
+  "order_id": 11077,
+  "id": "f9a92ac0-8a35-46f2-929d-265b7be32962"
+}

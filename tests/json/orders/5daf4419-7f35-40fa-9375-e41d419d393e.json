@@ -1,0 +1,17 @@
+{
+  "order_id": 10692,
+  "customer_id": "ALFKI",
+  "employee_id": 4,
+  "order_date": "1997-10-03T00:00:00",
+  "required_date": "1997-10-31T00:00:00",
+  "shipped_date": "1997-10-13T00:00:00",
+  "ship_via": 2,
+  "freight": 61.02,
+  "ship_name": "Alfred's Futterkiste",
+  "ship_address": "Obere Str. 57",
+  "ship_city": "Berlin",
+  "ship_region": null,
+  "ship_postal_code": "12209",
+  "ship_country": "Germany",
+  "id": "5daf4419-7f35-40fa-9375-e41d419d393e"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10695,
+  "customer_id": "WILMK",
+  "employee_id": 7,
+  "order_date": "1997-10-07T00:00:00",
+  "required_date": "1997-11-18T00:00:00",
+  "shipped_date": "1997-10-14T00:00:00",
+  "ship_via": 1,
+  "freight": 16.72,
+  "ship_name": "Wilman Kala",
+  "ship_address": "Keskuskatu 45",
+  "ship_city": "Helsinki",
+  "ship_region": null,
+  "ship_postal_code": "21240",
+  "ship_country": "Finland",
+  "id": "4c509aaf-0bc3-4097-9568-4ff112cdc28d"
+}

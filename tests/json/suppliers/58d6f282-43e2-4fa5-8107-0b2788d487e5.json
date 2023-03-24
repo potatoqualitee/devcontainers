@@ -1,0 +1,16 @@
+{
+  "supplier_id": 24,
+  "company_name": "G'day, Mate",
+  "contact_name": "Wendy Mackenzie",
+  "contact_title": "Sales Representative",
+  "address": "170 Prince Edward Parade Hunter's Hill",
+  "city": "Sydney",
+  "region": "NSW",
+  "postal_code": "2042",
+  "country": "Australia",
+  "phone": "(02) 555-5914",
+  "fax": "(02) 555-4873",
+  "homepage": "G'day Mate (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/gdaymate.htm#",
+  "order_id": 11073,
+  "id": "58d6f282-43e2-4fa5-8107-0b2788d487e5"
+}

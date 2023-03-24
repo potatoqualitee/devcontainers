@@ -1,0 +1,15 @@
+{
+  "customer_id": "LONEP",
+  "company_name": "Lonesome Pine Restaurant",
+  "contact_name": "Fran Wilson",
+  "contact_title": "Sales Manager",
+  "address": "89 Chiaroscuro Rd.",
+  "city": "Portland",
+  "region": "OR",
+  "postal_code": "97219",
+  "country": "USA",
+  "phone": "(503) 555-9573",
+  "fax": "(503) 555-9646",
+  "order_id": 10307,
+  "id": "ec766a61-8e16-447a-9fef-1ffbb32dbd06"
+}

@@ -1,0 +1,14 @@
+{
+  "product_id": 35,
+  "product_name": "Steeleye Stout",
+  "supplier_id": 16,
+  "category_id": 1,
+  "quantity_per_unit": "24 - 12 oz bottles",
+  "unit_price": 18.0,
+  "units_in_stock": 20,
+  "units_on_order": 0,
+  "reorder_level": 15,
+  "discontinued": 0,
+  "order_id": 10551,
+  "id": "4c6d5858-8a84-4f36-a915-00d6d141e8e0"
+}

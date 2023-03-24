@@ -1,0 +1,17 @@
+{
+  "order_id": 10376,
+  "customer_id": "MEREP",
+  "employee_id": 1,
+  "order_date": "1996-12-09T00:00:00",
+  "required_date": "1997-01-06T00:00:00",
+  "shipped_date": "1996-12-13T00:00:00",
+  "ship_via": 2,
+  "freight": 20.39,
+  "ship_name": "Mère Paillarde",
+  "ship_address": "43 rue St. Laurent",
+  "ship_city": "Montréal",
+  "ship_region": "Québec",
+  "ship_postal_code": "H1J 1C3",
+  "ship_country": "Canada",
+  "id": "90c8ae35-78e0-4f6d-bb05-fe11e0f3d7fd"
+}

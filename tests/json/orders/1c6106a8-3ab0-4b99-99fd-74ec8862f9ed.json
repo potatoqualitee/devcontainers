@@ -1,0 +1,17 @@
+{
+  "order_id": 10574,
+  "customer_id": "TRAIH",
+  "employee_id": 4,
+  "order_date": "1997-06-19T00:00:00",
+  "required_date": "1997-07-17T00:00:00",
+  "shipped_date": "1997-06-30T00:00:00",
+  "ship_via": 2,
+  "freight": 37.6,
+  "ship_name": "Trail's Head Gourmet Provisioners",
+  "ship_address": "722 DaVinci Blvd.",
+  "ship_city": "Kirkland",
+  "ship_region": "WA",
+  "ship_postal_code": "98034",
+  "ship_country": "USA",
+  "id": "1c6106a8-3ab0-4b99-99fd-74ec8862f9ed"
+}

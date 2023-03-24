@@ -1,0 +1,16 @@
+{
+  "supplier_id": 9,
+  "company_name": "PB Knäckebröd AB",
+  "contact_name": "Lars Peterson",
+  "contact_title": "Sales Agent",
+  "address": "Kaloadagatan 13",
+  "city": "Göteborg",
+  "region": null,
+  "postal_code": "S-345 67",
+  "country": "Sweden",
+  "phone": "031-987 65 43",
+  "fax": "031-987 65 91",
+  "homepage": null,
+  "order_id": 10515,
+  "id": "0a6f15dd-5b23-40a7-b440-f47281574259"
+}

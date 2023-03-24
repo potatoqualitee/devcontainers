@@ -1,0 +1,15 @@
+{
+  "customer_id": "ALFKI",
+  "company_name": "Alfreds Futterkiste",
+  "contact_name": "Maria Anders",
+  "contact_title": "Sales Representative",
+  "address": "Obere Str. 57",
+  "city": "Berlin",
+  "region": null,
+  "postal_code": "12209",
+  "country": "Germany",
+  "phone": "030-0074321",
+  "fax": "030-0076545",
+  "order_id": 10835,
+  "id": "903d21c6-c8c6-4216-86e4-8bdd4407c1b9"
+}

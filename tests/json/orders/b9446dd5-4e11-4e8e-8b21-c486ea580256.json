@@ -1,0 +1,17 @@
+{
+  "order_id": 10315,
+  "customer_id": "ISLAT",
+  "employee_id": 4,
+  "order_date": "1996-09-26T00:00:00",
+  "required_date": "1996-10-24T00:00:00",
+  "shipped_date": "1996-10-03T00:00:00",
+  "ship_via": 2,
+  "freight": 41.76,
+  "ship_name": "Island Trading",
+  "ship_address": "Garden House Crowther Way",
+  "ship_city": "Cowes",
+  "ship_region": "Isle of Wight",
+  "ship_postal_code": "PO31 7PJ",
+  "ship_country": "UK",
+  "id": "b9446dd5-4e11-4e8e-8b21-c486ea580256"
+}

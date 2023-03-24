@@ -1,0 +1,16 @@
+{
+  "supplier_id": 22,
+  "company_name": "Zaanse Snoepfabriek",
+  "contact_name": "Dirk Luchte",
+  "contact_title": "Accounting Manager",
+  "address": "Verkoop Rijnweg 22",
+  "city": "Zaandam",
+  "region": null,
+  "postal_code": "9999 ZZ",
+  "country": "Netherlands",
+  "phone": "(12345) 1212",
+  "fax": "(12345) 1210",
+  "homepage": null,
+  "order_id": 10943,
+  "id": "bb4d3baf-7940-4fd6-ae93-d273038a67b9"
+}

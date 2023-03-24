@@ -1,0 +1,17 @@
+{
+  "order_id": 10377,
+  "customer_id": "SEVES",
+  "employee_id": 1,
+  "order_date": "1996-12-09T00:00:00",
+  "required_date": "1997-01-06T00:00:00",
+  "shipped_date": "1996-12-13T00:00:00",
+  "ship_via": 3,
+  "freight": 22.21,
+  "ship_name": "Seven Seas Imports",
+  "ship_address": "90 Wadhurst Rd.",
+  "ship_city": "London",
+  "ship_region": null,
+  "ship_postal_code": "OX15 4NB",
+  "ship_country": "UK",
+  "id": "fc3f1326-110d-48a9-b25c-693c65854447"
+}

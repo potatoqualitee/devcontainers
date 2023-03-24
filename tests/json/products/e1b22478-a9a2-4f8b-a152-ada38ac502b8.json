@@ -1,0 +1,14 @@
+{
+  "product_id": 42,
+  "product_name": "Singaporean Hokkien Fried Mee",
+  "supplier_id": 20,
+  "category_id": 5,
+  "quantity_per_unit": "32 - 1 kg pkgs.",
+  "unit_price": 14.0,
+  "units_in_stock": 26,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10463,
+  "id": "e1b22478-a9a2-4f8b-a152-ada38ac502b8"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10262,
+  "customer_id": "RATTC",
+  "employee_id": 8,
+  "order_date": "1996-07-22T00:00:00",
+  "required_date": "1996-08-19T00:00:00",
+  "shipped_date": "1996-07-25T00:00:00",
+  "ship_via": 3,
+  "freight": 48.29,
+  "ship_name": "Rattlesnake Canyon Grocery",
+  "ship_address": "2817 Milton Dr.",
+  "ship_city": "Albuquerque",
+  "ship_region": "NM",
+  "ship_postal_code": "87110",
+  "ship_country": "USA",
+  "id": "4a3ff0d1-53bd-4bad-97d4-38c58de10790"
+}

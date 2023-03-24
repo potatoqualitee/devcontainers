@@ -1,0 +1,15 @@
+{
+  "customer_id": "THEBI",
+  "company_name": "The Big Cheese",
+  "contact_name": "Liz Nixon",
+  "contact_title": "Marketing Manager",
+  "address": "89 Jefferson Way Suite 2",
+  "city": "Portland",
+  "region": "OR",
+  "postal_code": "97201",
+  "country": "USA",
+  "phone": "(503) 555-3612",
+  "fax": null,
+  "order_id": 10805,
+  "id": "035bbf3e-1cbe-4010-9b99-c8a3d5c9798c"
+}

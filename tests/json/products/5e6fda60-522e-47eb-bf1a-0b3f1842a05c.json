@@ -1,0 +1,14 @@
+{
+  "product_id": 5,
+  "product_name": "Chef Anton's Gumbo Mix",
+  "supplier_id": 2,
+  "category_id": 2,
+  "quantity_per_unit": "36 boxes",
+  "unit_price": 21.35,
+  "units_in_stock": 0,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10258,
+  "id": "5e6fda60-522e-47eb-bf1a-0b3f1842a05c"
+}

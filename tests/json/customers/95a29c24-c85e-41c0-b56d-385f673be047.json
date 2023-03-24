@@ -1,0 +1,15 @@
+{
+  "customer_id": "QUEEN",
+  "company_name": "Queen Cozinha",
+  "contact_name": "Lúcia Carvalho",
+  "contact_title": "Marketing Assistant",
+  "address": "Alameda dos Canàrios, 891",
+  "city": "Sao Paulo",
+  "region": "SP",
+  "postal_code": "05487-020",
+  "country": "Brazil",
+  "phone": "(11) 555-1189",
+  "fax": null,
+  "order_id": 10786,
+  "id": "95a29c24-c85e-41c0-b56d-385f673be047"
+}

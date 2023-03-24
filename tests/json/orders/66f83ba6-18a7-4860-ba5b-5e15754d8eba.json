@@ -1,0 +1,17 @@
+{
+  "order_id": 10525,
+  "customer_id": "BONAP",
+  "employee_id": 1,
+  "order_date": "1997-05-02T00:00:00",
+  "required_date": "1997-05-30T00:00:00",
+  "shipped_date": "1997-05-23T00:00:00",
+  "ship_via": 2,
+  "freight": 11.06,
+  "ship_name": "Bon app'",
+  "ship_address": "12, rue des Bouchers",
+  "ship_city": "Marseille",
+  "ship_region": null,
+  "ship_postal_code": "13008",
+  "ship_country": "France",
+  "id": "66f83ba6-18a7-4860-ba5b-5e15754d8eba"
+}

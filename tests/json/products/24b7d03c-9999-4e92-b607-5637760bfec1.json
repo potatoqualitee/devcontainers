@@ -1,0 +1,14 @@
+{
+  "product_id": 69,
+  "product_name": "Gudbrandsdalsost",
+  "supplier_id": 15,
+  "category_id": 4,
+  "quantity_per_unit": "10 kg pkg.",
+  "unit_price": 36.0,
+  "units_in_stock": 26,
+  "units_on_order": 0,
+  "reorder_level": 15,
+  "discontinued": 0,
+  "order_id": 10964,
+  "id": "24b7d03c-9999-4e92-b607-5637760bfec1"
+}

@@ -1,0 +1,14 @@
+{
+  "product_id": 17,
+  "product_name": "Alice Mutton",
+  "supplier_id": 7,
+  "category_id": 6,
+  "quantity_per_unit": "20 - 1 kg tins",
+  "unit_price": 39.0,
+  "units_in_stock": 0,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10346,
+  "id": "50b35267-a7b9-46e6-94e3-efb474ba0175"
+}

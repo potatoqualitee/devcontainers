@@ -1,0 +1,17 @@
+{
+  "order_id": 10289,
+  "customer_id": "BSBEV",
+  "employee_id": 7,
+  "order_date": "1996-08-26T00:00:00",
+  "required_date": "1996-09-23T00:00:00",
+  "shipped_date": "1996-08-28T00:00:00",
+  "ship_via": 3,
+  "freight": 22.77,
+  "ship_name": "B's Beverages",
+  "ship_address": "Fauntleroy Circus",
+  "ship_city": "London",
+  "ship_region": null,
+  "ship_postal_code": "EC2 5NT",
+  "ship_country": "UK",
+  "id": "90342a0d-4cba-438d-9c70-9fdb86a3c2f6"
+}

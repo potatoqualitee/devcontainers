@@ -1,0 +1,17 @@
+{
+  "order_id": 10974,
+  "customer_id": "SPLIR",
+  "employee_id": 3,
+  "order_date": "1998-03-25T00:00:00",
+  "required_date": "1998-04-08T00:00:00",
+  "shipped_date": "1998-04-03T00:00:00",
+  "ship_via": 3,
+  "freight": 12.96,
+  "ship_name": "Split Rail Beer & Ale",
+  "ship_address": "P.O. Box 555",
+  "ship_city": "Lander",
+  "ship_region": "WY",
+  "ship_postal_code": "82520",
+  "ship_country": "USA",
+  "id": "37de699a-d817-4848-91af-4ca6b2a14aa8"
+}

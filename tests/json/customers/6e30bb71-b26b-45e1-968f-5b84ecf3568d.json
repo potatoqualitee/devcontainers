@@ -1,0 +1,15 @@
+{
+  "customer_id": "GOURL",
+  "company_name": "Gourmet Lanchonetes",
+  "contact_name": "André Fonseca",
+  "contact_title": "Sales Associate",
+  "address": "Av. Brasil, 442",
+  "city": "Campinas",
+  "region": "SP",
+  "postal_code": "04876-786",
+  "country": "Brazil",
+  "phone": "(11) 555-9482",
+  "fax": null,
+  "order_id": 10709,
+  "id": "6e30bb71-b26b-45e1-968f-5b84ecf3568d"
+}

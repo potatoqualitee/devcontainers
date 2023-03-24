@@ -1,0 +1,17 @@
+{
+  "order_id": 10490,
+  "customer_id": "HILAA",
+  "employee_id": 7,
+  "order_date": "1997-03-31T00:00:00",
+  "required_date": "1997-04-28T00:00:00",
+  "shipped_date": "1997-04-03T00:00:00",
+  "ship_via": 2,
+  "freight": 210.19,
+  "ship_name": "HILARION-Abastos",
+  "ship_address": "Carrera 22 con Ave. Carlos Soublette #8-35",
+  "ship_city": "San Cristóbal",
+  "ship_region": "Táchira",
+  "ship_postal_code": "5022",
+  "ship_country": "Venezuela",
+  "id": "58e9bc28-dc4f-4790-b32b-4d216aad9575"
+}

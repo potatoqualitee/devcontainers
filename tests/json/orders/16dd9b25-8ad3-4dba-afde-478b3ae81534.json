@@ -1,0 +1,17 @@
+{
+  "order_id": 10607,
+  "customer_id": "SAVEA",
+  "employee_id": 5,
+  "order_date": "1997-07-22T00:00:00",
+  "required_date": "1997-08-19T00:00:00",
+  "shipped_date": "1997-07-25T00:00:00",
+  "ship_via": 1,
+  "freight": 200.24,
+  "ship_name": "Save-a-lot Markets",
+  "ship_address": "187 Suffolk Ln.",
+  "ship_city": "Boise",
+  "ship_region": "ID",
+  "ship_postal_code": "83720",
+  "ship_country": "USA",
+  "id": "16dd9b25-8ad3-4dba-afde-478b3ae81534"
+}

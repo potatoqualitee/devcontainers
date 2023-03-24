@@ -1,0 +1,17 @@
+{
+  "order_id": 10741,
+  "customer_id": "AROUT",
+  "employee_id": 4,
+  "order_date": "1997-11-14T00:00:00",
+  "required_date": "1997-11-28T00:00:00",
+  "shipped_date": "1997-11-18T00:00:00",
+  "ship_via": 3,
+  "freight": 10.96,
+  "ship_name": "Around the Horn",
+  "ship_address": "Brook Farm Stratford St. Mary",
+  "ship_city": "Colchester",
+  "ship_region": "Essex",
+  "ship_postal_code": "CO7 6JX",
+  "ship_country": "UK",
+  "id": "16e24eef-4282-4bd7-925e-ed5f6abc9540"
+}

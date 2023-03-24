@@ -1,0 +1,16 @@
+{
+  "supplier_id": 10,
+  "company_name": "Refrescos Americanas LTDA",
+  "contact_name": "Carlos Diaz",
+  "contact_title": "Marketing Manager",
+  "address": "Av. das Americanas 12.890",
+  "city": "Sao Paulo",
+  "region": null,
+  "postal_code": "5442",
+  "country": "Brazil",
+  "phone": "(11) 555 4640",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10713,
+  "id": "0e2f2d78-f9c0-4dd9-9810-fbc89de974df"
+}

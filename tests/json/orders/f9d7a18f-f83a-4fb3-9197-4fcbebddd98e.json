@@ -1,0 +1,17 @@
+{
+  "order_id": 10259,
+  "customer_id": "CENTC",
+  "employee_id": 4,
+  "order_date": "1996-07-18T00:00:00",
+  "required_date": "1996-08-15T00:00:00",
+  "shipped_date": "1996-07-25T00:00:00",
+  "ship_via": 3,
+  "freight": 3.25,
+  "ship_name": "Centro comercial Moctezuma",
+  "ship_address": "Sierras de Granada 9993",
+  "ship_city": "México D.F.",
+  "ship_region": null,
+  "ship_postal_code": "05022",
+  "ship_country": "Mexico",
+  "id": "f9d7a18f-f83a-4fb3-9197-4fcbebddd98e"
+}

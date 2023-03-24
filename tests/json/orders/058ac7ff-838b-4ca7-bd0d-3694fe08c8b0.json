@@ -1,0 +1,17 @@
+{
+  "order_id": 10698,
+  "customer_id": "ERNSH",
+  "employee_id": 4,
+  "order_date": "1997-10-09T00:00:00",
+  "required_date": "1997-11-06T00:00:00",
+  "shipped_date": "1997-10-17T00:00:00",
+  "ship_via": 1,
+  "freight": 272.47,
+  "ship_name": "Ernst Handel",
+  "ship_address": "Kirchgasse 6",
+  "ship_city": "Graz",
+  "ship_region": null,
+  "ship_postal_code": "8010",
+  "ship_country": "Austria",
+  "id": "058ac7ff-838b-4ca7-bd0d-3694fe08c8b0"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10394,
+  "customer_id": "HUNGC",
+  "employee_id": 1,
+  "order_date": "1996-12-25T00:00:00",
+  "required_date": "1997-01-22T00:00:00",
+  "shipped_date": "1997-01-03T00:00:00",
+  "ship_via": 3,
+  "freight": 30.34,
+  "ship_name": "Hungry Coyote Import Store",
+  "ship_address": "City Center Plaza 516 Main St.",
+  "ship_city": "Elgin",
+  "ship_region": "OR",
+  "ship_postal_code": "97827",
+  "ship_country": "USA",
+  "id": "d2376aa0-5ea1-45c1-a63e-e14eb6f44b8a"
+}

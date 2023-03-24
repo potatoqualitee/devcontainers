@@ -1,0 +1,17 @@
+{
+  "order_id": 10497,
+  "customer_id": "LEHMS",
+  "employee_id": 7,
+  "order_date": "1997-04-04T00:00:00",
+  "required_date": "1997-05-02T00:00:00",
+  "shipped_date": "1997-04-07T00:00:00",
+  "ship_via": 1,
+  "freight": 36.21,
+  "ship_name": "Lehmanns Marktstand",
+  "ship_address": "Magazinweg 7",
+  "ship_city": "Frankfurt a.M.",
+  "ship_region": null,
+  "ship_postal_code": "60528",
+  "ship_country": "Germany",
+  "id": "d9e9ddf3-1681-4ed9-8c97-84f1765c653e"
+}

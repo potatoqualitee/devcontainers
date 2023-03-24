@@ -1,0 +1,17 @@
+{
+  "order_id": 10701,
+  "customer_id": "HUNGO",
+  "employee_id": 6,
+  "order_date": "1997-10-13T00:00:00",
+  "required_date": "1997-10-27T00:00:00",
+  "shipped_date": "1997-10-15T00:00:00",
+  "ship_via": 3,
+  "freight": 220.31,
+  "ship_name": "Hungry Owl All-Night Grocers",
+  "ship_address": "8 Johnstown Road",
+  "ship_city": "Cork",
+  "ship_region": "Co. Cork",
+  "ship_postal_code": null,
+  "ship_country": "Ireland",
+  "id": "875e8a4c-71df-4d7a-8aa4-1fa9902a715a"
+}

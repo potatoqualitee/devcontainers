@@ -1,0 +1,17 @@
+{
+  "order_id": 11009,
+  "customer_id": "GODOS",
+  "employee_id": 2,
+  "order_date": "1998-04-08T00:00:00",
+  "required_date": "1998-05-06T00:00:00",
+  "shipped_date": "1998-04-10T00:00:00",
+  "ship_via": 1,
+  "freight": 59.11,
+  "ship_name": "Godos Cocina Típica",
+  "ship_address": "C/ Romero, 33",
+  "ship_city": "Sevilla",
+  "ship_region": null,
+  "ship_postal_code": "41101",
+  "ship_country": "Spain",
+  "id": "7a3480b7-82c5-4ccd-8708-a27795c3ac3f"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10916,
+  "customer_id": "RANCH",
+  "employee_id": 1,
+  "order_date": "1998-02-27T00:00:00",
+  "required_date": "1998-03-27T00:00:00",
+  "shipped_date": "1998-03-09T00:00:00",
+  "ship_via": 2,
+  "freight": 63.77,
+  "ship_name": "Rancho grande",
+  "ship_address": "Av. del Libertador 900",
+  "ship_city": "Buenos Aires",
+  "ship_region": null,
+  "ship_postal_code": "1010",
+  "ship_country": "Argentina",
+  "id": "5b0868a6-0f34-4a1e-85ce-b35045b08f4c"
+}

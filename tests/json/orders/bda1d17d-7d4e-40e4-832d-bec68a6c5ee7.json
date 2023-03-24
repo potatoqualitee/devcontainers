@@ -1,0 +1,17 @@
+{
+  "order_id": 10530,
+  "customer_id": "PICCO",
+  "employee_id": 3,
+  "order_date": "1997-05-08T00:00:00",
+  "required_date": "1997-06-05T00:00:00",
+  "shipped_date": "1997-05-12T00:00:00",
+  "ship_via": 2,
+  "freight": 339.22,
+  "ship_name": "Piccolo und mehr",
+  "ship_address": "Geislweg 14",
+  "ship_city": "Salzburg",
+  "ship_region": null,
+  "ship_postal_code": "5020",
+  "ship_country": "Austria",
+  "id": "bda1d17d-7d4e-40e4-832d-bec68a6c5ee7"
+}

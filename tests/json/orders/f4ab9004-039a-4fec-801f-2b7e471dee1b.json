@@ -1,0 +1,17 @@
+{
+  "order_id": 10614,
+  "customer_id": "BLAUS",
+  "employee_id": 8,
+  "order_date": "1997-07-29T00:00:00",
+  "required_date": "1997-08-26T00:00:00",
+  "shipped_date": "1997-08-01T00:00:00",
+  "ship_via": 3,
+  "freight": 1.93,
+  "ship_name": "Blauer See Delikatessen",
+  "ship_address": "Forsterstr. 57",
+  "ship_city": "Mannheim",
+  "ship_region": null,
+  "ship_postal_code": "68306",
+  "ship_country": "Germany",
+  "id": "f4ab9004-039a-4fec-801f-2b7e471dee1b"
+}

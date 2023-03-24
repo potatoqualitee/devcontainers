@@ -1,0 +1,14 @@
+{
+  "product_id": 59,
+  "product_name": "Raclette Courdavault",
+  "supplier_id": 28,
+  "category_id": 4,
+  "quantity_per_unit": "5 kg pkg.",
+  "unit_price": 55.0,
+  "units_in_stock": 79,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10757,
+  "id": "3b27f7a5-363b-4cd6-ab47-cacae63df4e7"
+}

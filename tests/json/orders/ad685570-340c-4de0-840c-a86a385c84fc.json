@@ -1,0 +1,17 @@
+{
+  "order_id": 10671,
+  "customer_id": "FRANR",
+  "employee_id": 1,
+  "order_date": "1997-09-17T00:00:00",
+  "required_date": "1997-10-15T00:00:00",
+  "shipped_date": "1997-09-24T00:00:00",
+  "ship_via": 1,
+  "freight": 30.34,
+  "ship_name": "France restauration",
+  "ship_address": "54, rue Royale",
+  "ship_city": "Nantes",
+  "ship_region": null,
+  "ship_postal_code": "44000",
+  "ship_country": "France",
+  "id": "ad685570-340c-4de0-840c-a86a385c84fc"
+}

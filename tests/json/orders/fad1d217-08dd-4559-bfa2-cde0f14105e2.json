@@ -1,0 +1,17 @@
+{
+  "order_id": 10548,
+  "customer_id": "TOMSP",
+  "employee_id": 3,
+  "order_date": "1997-05-26T00:00:00",
+  "required_date": "1997-06-23T00:00:00",
+  "shipped_date": "1997-06-02T00:00:00",
+  "ship_via": 2,
+  "freight": 1.43,
+  "ship_name": "Toms Spezialitäten",
+  "ship_address": "Luisenstr. 48",
+  "ship_city": "Münster",
+  "ship_region": null,
+  "ship_postal_code": "44087",
+  "ship_country": "Germany",
+  "id": "fad1d217-08dd-4559-bfa2-cde0f14105e2"
+}

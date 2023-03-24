@@ -1,0 +1,17 @@
+{
+  "order_id": 10849,
+  "customer_id": "KOENE",
+  "employee_id": 9,
+  "order_date": "1998-01-23T00:00:00",
+  "required_date": "1998-02-20T00:00:00",
+  "shipped_date": "1998-01-30T00:00:00",
+  "ship_via": 2,
+  "freight": 0.56,
+  "ship_name": "Königlich Essen",
+  "ship_address": "Maubelstr. 90",
+  "ship_city": "Brandenburg",
+  "ship_region": null,
+  "ship_postal_code": "14776",
+  "ship_country": "Germany",
+  "id": "7cac6083-5b8f-4d72-9fcd-bce0252f2b2d"
+}

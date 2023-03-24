@@ -1,0 +1,15 @@
+{
+  "customer_id": "COMMI",
+  "company_name": "Comércio Mineiro",
+  "contact_name": "Pedro Afonso",
+  "contact_title": "Sales Associate",
+  "address": "Av. dos Lusíadas, 23",
+  "city": "Sao Paulo",
+  "region": "SP",
+  "postal_code": "05432-043",
+  "country": "Brazil",
+  "phone": "(11) 555-7647",
+  "fax": null,
+  "order_id": 10969,
+  "id": "18e587a7-d6a5-48cd-b05f-4f2de6172839"
+}

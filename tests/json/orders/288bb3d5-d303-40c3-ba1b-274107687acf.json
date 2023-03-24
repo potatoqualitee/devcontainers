@@ -1,0 +1,17 @@
+{
+  "order_id": 10622,
+  "customer_id": "RICAR",
+  "employee_id": 4,
+  "order_date": "1997-08-06T00:00:00",
+  "required_date": "1997-09-03T00:00:00",
+  "shipped_date": "1997-08-11T00:00:00",
+  "ship_via": 3,
+  "freight": 50.97,
+  "ship_name": "Ricardo Adocicados",
+  "ship_address": "Av. Copacabana, 267",
+  "ship_city": "Rio de Janeiro",
+  "ship_region": "RJ",
+  "ship_postal_code": "02389-890",
+  "ship_country": "Brazil",
+  "id": "288bb3d5-d303-40c3-ba1b-274107687acf"
+}

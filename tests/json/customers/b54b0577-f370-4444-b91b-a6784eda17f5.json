@@ -1,0 +1,15 @@
+{
+  "customer_id": "BERGS",
+  "company_name": "Berglunds snabbköp",
+  "contact_name": "Christina Berglund",
+  "contact_title": "Order Administrator",
+  "address": "Berguvsvägen  8",
+  "city": "Luleå",
+  "region": null,
+  "postal_code": "S-958 22",
+  "country": "Sweden",
+  "phone": "0921-12 34 65",
+  "fax": "0921-12 34 67",
+  "order_id": 10524,
+  "id": "b54b0577-f370-4444-b91b-a6784eda17f5"
+}

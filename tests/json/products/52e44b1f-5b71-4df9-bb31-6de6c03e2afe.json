@@ -1,0 +1,14 @@
+{
+  "product_id": 63,
+  "product_name": "Vegie-spread",
+  "supplier_id": 7,
+  "category_id": 2,
+  "quantity_per_unit": "15 - 625 g jars",
+  "unit_price": 43.9,
+  "units_in_stock": 24,
+  "units_on_order": 0,
+  "reorder_level": 5,
+  "discontinued": 0,
+  "order_id": 10402,
+  "id": "52e44b1f-5b71-4df9-bb31-6de6c03e2afe"
+}

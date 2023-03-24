@@ -1,0 +1,15 @@
+{
+  "customer_id": "BSBEV",
+  "company_name": "B's Beverages",
+  "contact_name": "Victoria Ashworth",
+  "contact_title": "Sales Representative",
+  "address": "Fauntleroy Circus",
+  "city": "London",
+  "region": null,
+  "postal_code": "EC2 5NT",
+  "country": "UK",
+  "phone": "(171) 555-1212",
+  "fax": null,
+  "order_id": 10539,
+  "id": "3c4584d2-23d4-4853-86dc-0fb81ca317c0"
+}

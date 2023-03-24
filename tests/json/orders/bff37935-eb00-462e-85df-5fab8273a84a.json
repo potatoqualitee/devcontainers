@@ -1,0 +1,17 @@
+{
+  "order_id": 10408,
+  "customer_id": "FOLIG",
+  "employee_id": 8,
+  "order_date": "1997-01-08T00:00:00",
+  "required_date": "1997-02-05T00:00:00",
+  "shipped_date": "1997-01-14T00:00:00",
+  "ship_via": 1,
+  "freight": 11.26,
+  "ship_name": "Folies gourmandes",
+  "ship_address": "184, chaussée de Tournai",
+  "ship_city": "Lille",
+  "ship_region": null,
+  "ship_postal_code": "59000",
+  "ship_country": "France",
+  "id": "bff37935-eb00-462e-85df-5fab8273a84a"
+}

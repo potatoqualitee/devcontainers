@@ -1,0 +1,17 @@
+{
+  "order_id": 10554,
+  "customer_id": "OTTIK",
+  "employee_id": 4,
+  "order_date": "1997-05-30T00:00:00",
+  "required_date": "1997-06-27T00:00:00",
+  "shipped_date": "1997-06-05T00:00:00",
+  "ship_via": 3,
+  "freight": 120.97,
+  "ship_name": "Ottilies Käseladen",
+  "ship_address": "Mehrheimerstr. 369",
+  "ship_city": "Köln",
+  "ship_region": null,
+  "ship_postal_code": "50739",
+  "ship_country": "Germany",
+  "id": "8621005e-5043-490f-94e5-9220424b37d2"
+}

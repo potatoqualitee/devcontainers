@@ -1,0 +1,17 @@
+{
+  "order_id": 10995,
+  "customer_id": "PERIC",
+  "employee_id": 1,
+  "order_date": "1998-04-02T00:00:00",
+  "required_date": "1998-04-30T00:00:00",
+  "shipped_date": "1998-04-06T00:00:00",
+  "ship_via": 3,
+  "freight": 46.0,
+  "ship_name": "Pericles Comidas clásicas",
+  "ship_address": "Calle Dr. Jorge Cash 321",
+  "ship_city": "México D.F.",
+  "ship_region": null,
+  "ship_postal_code": "05033",
+  "ship_country": "Mexico",
+  "id": "8b76816b-a7f3-4d0c-9931-daae762fc904"
+}

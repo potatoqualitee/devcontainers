@@ -1,0 +1,15 @@
+{
+  "customer_id": "WANDK",
+  "company_name": "Die Wandernde Kuh",
+  "contact_name": "Rita Müller",
+  "contact_title": "Sales Representative",
+  "address": "Adenauerallee 900",
+  "city": "Stuttgart",
+  "region": null,
+  "postal_code": "70563",
+  "country": "Germany",
+  "phone": "0711-020361",
+  "fax": "0711-035428",
+  "order_id": 10640,
+  "id": "372d3064-bb64-433f-875b-9fef22184008"
+}

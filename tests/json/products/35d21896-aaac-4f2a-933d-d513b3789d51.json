@@ -1,0 +1,14 @@
+{
+  "product_id": 30,
+  "product_name": "Nord-Ost Matjeshering",
+  "supplier_id": 13,
+  "category_id": 8,
+  "quantity_per_unit": "10 - 200 g glasses",
+  "unit_price": 25.89,
+  "units_in_stock": 10,
+  "units_on_order": 0,
+  "reorder_level": 15,
+  "discontinued": 0,
+  "order_id": 10719,
+  "id": "35d21896-aaac-4f2a-933d-d513b3789d51"
+}

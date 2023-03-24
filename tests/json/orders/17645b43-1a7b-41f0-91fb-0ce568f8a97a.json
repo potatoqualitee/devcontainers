@@ -1,0 +1,17 @@
+{
+  "order_id": 10738,
+  "customer_id": "SPECD",
+  "employee_id": 2,
+  "order_date": "1997-11-12T00:00:00",
+  "required_date": "1997-12-10T00:00:00",
+  "shipped_date": "1997-11-18T00:00:00",
+  "ship_via": 1,
+  "freight": 2.91,
+  "ship_name": "Spécialités du monde",
+  "ship_address": "25, rue Lauriston",
+  "ship_city": "Paris",
+  "ship_region": null,
+  "ship_postal_code": "75016",
+  "ship_country": "France",
+  "id": "17645b43-1a7b-41f0-91fb-0ce568f8a97a"
+}

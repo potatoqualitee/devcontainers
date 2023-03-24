@@ -1,0 +1,15 @@
+{
+  "customer_id": "DUMON",
+  "company_name": "Du monde entier",
+  "contact_name": "Janine Labrune",
+  "contact_title": "Owner",
+  "address": "67, rue des Cinquante Otages",
+  "city": "Nantes",
+  "region": null,
+  "postal_code": "44000",
+  "country": "France",
+  "phone": "40.67.88.88",
+  "fax": "40.67.89.89",
+  "order_id": 10311,
+  "id": "553a0f5c-59fa-4049-988f-bf7ab489c1e6"
+}

@@ -1,0 +1,17 @@
+{
+  "order_id": 10372,
+  "customer_id": "QUEEN",
+  "employee_id": 5,
+  "order_date": "1996-12-04T00:00:00",
+  "required_date": "1997-01-01T00:00:00",
+  "shipped_date": "1996-12-09T00:00:00",
+  "ship_via": 2,
+  "freight": 890.78,
+  "ship_name": "Queen Cozinha",
+  "ship_address": "Alameda dos Canàrios, 891",
+  "ship_city": "Sao Paulo",
+  "ship_region": "SP",
+  "ship_postal_code": "05487-020",
+  "ship_country": "Brazil",
+  "id": "ffee9946-847b-49a0-822e-33257f632a33"
+}

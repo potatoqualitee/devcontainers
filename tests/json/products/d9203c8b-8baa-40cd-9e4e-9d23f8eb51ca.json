@@ -1,0 +1,14 @@
+{
+  "product_id": 16,
+  "product_name": "Pavlova",
+  "supplier_id": 7,
+  "category_id": 3,
+  "quantity_per_unit": "32 - 500 g boxes",
+  "unit_price": 17.45,
+  "units_in_stock": 29,
+  "units_on_order": 0,
+  "reorder_level": 10,
+  "discontinued": 0,
+  "order_id": 10932,
+  "id": "d9203c8b-8baa-40cd-9e4e-9d23f8eb51ca"
+}

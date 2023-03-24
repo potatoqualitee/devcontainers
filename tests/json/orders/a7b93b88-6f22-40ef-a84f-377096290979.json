@@ -1,0 +1,17 @@
+{
+  "order_id": 10425,
+  "customer_id": "LAMAI",
+  "employee_id": 6,
+  "order_date": "1997-01-24T00:00:00",
+  "required_date": "1997-02-21T00:00:00",
+  "shipped_date": "1997-02-14T00:00:00",
+  "ship_via": 2,
+  "freight": 7.93,
+  "ship_name": "La maison d'Asie",
+  "ship_address": "1 rue Alsace-Lorraine",
+  "ship_city": "Toulouse",
+  "ship_region": null,
+  "ship_postal_code": "31000",
+  "ship_country": "France",
+  "id": "a7b93b88-6f22-40ef-a84f-377096290979"
+}

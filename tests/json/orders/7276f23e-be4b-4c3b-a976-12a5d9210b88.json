@@ -1,0 +1,17 @@
+{
+  "order_id": 10307,
+  "customer_id": "LONEP",
+  "employee_id": 2,
+  "order_date": "1996-09-17T00:00:00",
+  "required_date": "1996-10-15T00:00:00",
+  "shipped_date": "1996-09-25T00:00:00",
+  "ship_via": 2,
+  "freight": 0.56,
+  "ship_name": "Lonesome Pine Restaurant",
+  "ship_address": "89 Chiaroscuro Rd.",
+  "ship_city": "Portland",
+  "ship_region": "OR",
+  "ship_postal_code": "97219",
+  "ship_country": "USA",
+  "id": "7276f23e-be4b-4c3b-a976-12a5d9210b88"
+}

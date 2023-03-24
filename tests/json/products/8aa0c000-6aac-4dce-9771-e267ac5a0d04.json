@@ -1,0 +1,14 @@
+{
+  "product_id": 44,
+  "product_name": "Gula Malacca",
+  "supplier_id": 20,
+  "category_id": 2,
+  "quantity_per_unit": "20 - 2 kg bags",
+  "unit_price": 19.45,
+  "units_in_stock": 27,
+  "units_on_order": 0,
+  "reorder_level": 15,
+  "discontinued": 0,
+  "order_id": 10518,
+  "id": "8aa0c000-6aac-4dce-9771-e267ac5a0d04"
+}

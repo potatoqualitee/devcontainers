@@ -1,0 +1,15 @@
+{
+  "customer_id": "QUICK",
+  "company_name": "QUICK-Stop",
+  "contact_name": "Horst Kloss",
+  "contact_title": "Accounting Manager",
+  "address": "Taucherstraße 10",
+  "city": "Cunewalde",
+  "region": null,
+  "postal_code": "01307",
+  "country": "Germany",
+  "phone": "0372-035188",
+  "fax": null,
+  "order_id": 10962,
+  "id": "29de2770-72dd-44f4-9ad8-7dd2f47a8f6e"
+}

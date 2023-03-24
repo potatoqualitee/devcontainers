@@ -1,0 +1,17 @@
+{
+  "order_id": 10931,
+  "customer_id": "RICSU",
+  "employee_id": 4,
+  "order_date": "1998-03-06T00:00:00",
+  "required_date": "1998-03-20T00:00:00",
+  "shipped_date": "1998-03-19T00:00:00",
+  "ship_via": 2,
+  "freight": 13.6,
+  "ship_name": "Richter Supermarkt",
+  "ship_address": "Starenweg 5",
+  "ship_city": "Genève",
+  "ship_region": null,
+  "ship_postal_code": "1204",
+  "ship_country": "Switzerland",
+  "id": "9b57434c-8a15-4bcd-8651-5b95f5dec10f"
+}

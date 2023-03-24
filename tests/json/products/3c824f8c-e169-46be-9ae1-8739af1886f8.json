@@ -1,0 +1,14 @@
+{
+  "product_id": 64,
+  "product_name": "Wimmers gute Semmelknödel",
+  "supplier_id": 12,
+  "category_id": 5,
+  "quantity_per_unit": "20 bags x 4 pieces",
+  "unit_price": 33.25,
+  "units_in_stock": 22,
+  "units_on_order": 80,
+  "reorder_level": 30,
+  "discontinued": 0,
+  "order_id": 10451,
+  "id": "3c824f8c-e169-46be-9ae1-8739af1886f8"
+}

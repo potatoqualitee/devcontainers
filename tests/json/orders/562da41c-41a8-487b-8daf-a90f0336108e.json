@@ -1,0 +1,17 @@
+{
+  "order_id": 10326,
+  "customer_id": "BOLID",
+  "employee_id": 4,
+  "order_date": "1996-10-10T00:00:00",
+  "required_date": "1996-11-07T00:00:00",
+  "shipped_date": "1996-10-14T00:00:00",
+  "ship_via": 2,
+  "freight": 77.92,
+  "ship_name": "Bólido Comidas preparadas",
+  "ship_address": "C/ Araquil, 67",
+  "ship_city": "Madrid",
+  "ship_region": null,
+  "ship_postal_code": "28023",
+  "ship_country": "Spain",
+  "id": "562da41c-41a8-487b-8daf-a90f0336108e"
+}

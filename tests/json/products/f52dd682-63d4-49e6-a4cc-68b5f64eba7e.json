@@ -1,0 +1,14 @@
+{
+  "product_id": 74,
+  "product_name": "Longlife Tofu",
+  "supplier_id": 4,
+  "category_id": 7,
+  "quantity_per_unit": "5 kg pkg.",
+  "unit_price": 10.0,
+  "units_in_stock": 4,
+  "units_on_order": 20,
+  "reorder_level": 5,
+  "discontinued": 0,
+  "order_id": 10254,
+  "id": "f52dd682-63d4-49e6-a4cc-68b5f64eba7e"
+}

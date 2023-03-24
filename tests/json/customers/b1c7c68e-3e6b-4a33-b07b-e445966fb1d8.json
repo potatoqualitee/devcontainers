@@ -1,0 +1,15 @@
+{
+  "customer_id": "KOENE",
+  "company_name": "Königlich Essen",
+  "contact_name": "Philip Cramer",
+  "contact_title": "Sales Associate",
+  "address": "Maubelstr. 90",
+  "city": "Brandenburg",
+  "region": null,
+  "postal_code": "14776",
+  "country": "Germany",
+  "phone": "0555-09876",
+  "fax": null,
+  "order_id": 10718,
+  "id": "b1c7c68e-3e6b-4a33-b07b-e445966fb1d8"
+}

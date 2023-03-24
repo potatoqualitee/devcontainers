@@ -1,0 +1,17 @@
+{
+  "order_id": 10927,
+  "customer_id": "LACOR",
+  "employee_id": 4,
+  "order_date": "1998-03-05T00:00:00",
+  "required_date": "1998-04-02T00:00:00",
+  "shipped_date": "1998-04-08T00:00:00",
+  "ship_via": 1,
+  "freight": 19.79,
+  "ship_name": "La corne d'abondance",
+  "ship_address": "67, avenue de l'Europe",
+  "ship_city": "Versailles",
+  "ship_region": null,
+  "ship_postal_code": "78000",
+  "ship_country": "France",
+  "id": "271ab3a1-9688-45a4-b815-e77ff1e7f222"
+}

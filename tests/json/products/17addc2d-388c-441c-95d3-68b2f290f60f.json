@@ -1,0 +1,14 @@
+{
+  "product_id": 29,
+  "product_name": "Thüringer Rostbratwurst",
+  "supplier_id": 12,
+  "category_id": 6,
+  "quantity_per_unit": "50 bags x 30 sausgs.",
+  "unit_price": 123.79,
+  "units_in_stock": 0,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10834,
+  "id": "17addc2d-388c-441c-95d3-68b2f290f60f"
+}

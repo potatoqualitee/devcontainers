@@ -1,0 +1,15 @@
+{
+  "customer_id": "CACTU",
+  "company_name": "Cactus Comidas para llevar",
+  "contact_name": "Patricio Simpson",
+  "contact_title": "Sales Agent",
+  "address": "Cerrito 333",
+  "city": "Buenos Aires",
+  "region": null,
+  "postal_code": "1010",
+  "country": "Argentina",
+  "phone": "(1) 135-5555",
+  "fax": "(1) 135-4892",
+  "order_id": 11054,
+  "id": "1befee02-6d4b-4cda-8b94-1a48395b9338"
+}

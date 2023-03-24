@@ -1,0 +1,14 @@
+{
+  "product_id": 1,
+  "product_name": "Chai",
+  "supplier_id": 8,
+  "category_id": 1,
+  "quantity_per_unit": "10 boxes x 30 bags",
+  "unit_price": 18.0,
+  "units_in_stock": 39,
+  "units_on_order": 0,
+  "reorder_level": 10,
+  "discontinued": 1,
+  "order_id": 11005,
+  "id": "d3db2604-07fc-4545-9004-5ceba4b86753"
+}

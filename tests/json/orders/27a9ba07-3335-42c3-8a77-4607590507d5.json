@@ -1,0 +1,17 @@
+{
+  "order_id": 10710,
+  "customer_id": "FRANS",
+  "employee_id": 1,
+  "order_date": "1997-10-20T00:00:00",
+  "required_date": "1997-11-17T00:00:00",
+  "shipped_date": "1997-10-23T00:00:00",
+  "ship_via": 1,
+  "freight": 4.98,
+  "ship_name": "Franchi S.p.A.",
+  "ship_address": "Via Monte Bianco 34",
+  "ship_city": "Torino",
+  "ship_region": null,
+  "ship_postal_code": "10100",
+  "ship_country": "Italy",
+  "id": "27a9ba07-3335-42c3-8a77-4607590507d5"
+}

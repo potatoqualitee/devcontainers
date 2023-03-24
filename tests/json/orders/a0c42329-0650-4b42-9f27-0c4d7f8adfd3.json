@@ -1,0 +1,17 @@
+{
+  "order_id": 10928,
+  "customer_id": "GALED",
+  "employee_id": 1,
+  "order_date": "1998-03-05T00:00:00",
+  "required_date": "1998-04-02T00:00:00",
+  "shipped_date": "1998-03-18T00:00:00",
+  "ship_via": 1,
+  "freight": 1.36,
+  "ship_name": "Galería del gastronómo",
+  "ship_address": "Rambla de Cataluña, 23",
+  "ship_city": "Barcelona",
+  "ship_region": null,
+  "ship_postal_code": "8022",
+  "ship_country": "Spain",
+  "id": "a0c42329-0650-4b42-9f27-0c4d7f8adfd3"
+}

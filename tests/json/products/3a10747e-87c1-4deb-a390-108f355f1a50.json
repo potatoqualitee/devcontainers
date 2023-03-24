@@ -1,0 +1,14 @@
+{
+  "product_id": 48,
+  "product_name": "Chocolade",
+  "supplier_id": 22,
+  "category_id": 3,
+  "quantity_per_unit": "10 pkgs.",
+  "unit_price": 12.75,
+  "units_in_stock": 15,
+  "units_on_order": 70,
+  "reorder_level": 25,
+  "discontinued": 0,
+  "order_id": 10704,
+  "id": "3a10747e-87c1-4deb-a390-108f355f1a50"
+}

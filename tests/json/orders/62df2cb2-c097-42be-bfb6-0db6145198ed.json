@@ -1,0 +1,17 @@
+{
+  "order_id": 10585,
+  "customer_id": "WELLI",
+  "employee_id": 7,
+  "order_date": "1997-07-01T00:00:00",
+  "required_date": "1997-07-29T00:00:00",
+  "shipped_date": "1997-07-10T00:00:00",
+  "ship_via": 1,
+  "freight": 13.41,
+  "ship_name": "Wellington Importadora",
+  "ship_address": "Rua do Mercado, 12",
+  "ship_city": "Resende",
+  "ship_region": "SP",
+  "ship_postal_code": "08737-363",
+  "ship_country": "Brazil",
+  "id": "62df2cb2-c097-42be-bfb6-0db6145198ed"
+}

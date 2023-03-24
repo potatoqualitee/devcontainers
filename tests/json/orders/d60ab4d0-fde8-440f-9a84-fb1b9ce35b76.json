@@ -1,0 +1,17 @@
+{
+  "order_id": 10708,
+  "customer_id": "THEBI",
+  "employee_id": 6,
+  "order_date": "1997-10-17T00:00:00",
+  "required_date": "1997-11-28T00:00:00",
+  "shipped_date": "1997-11-05T00:00:00",
+  "ship_via": 2,
+  "freight": 2.96,
+  "ship_name": "The Big Cheese",
+  "ship_address": "89 Jefferson Way Suite 2",
+  "ship_city": "Portland",
+  "ship_region": "OR",
+  "ship_postal_code": "97201",
+  "ship_country": "USA",
+  "id": "d60ab4d0-fde8-440f-9a84-fb1b9ce35b76"
+}

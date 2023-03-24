@@ -1,0 +1,17 @@
+{
+  "order_id": 10699,
+  "customer_id": "MORGK",
+  "employee_id": 3,
+  "order_date": "1997-10-09T00:00:00",
+  "required_date": "1997-11-06T00:00:00",
+  "shipped_date": "1997-10-13T00:00:00",
+  "ship_via": 3,
+  "freight": 0.58,
+  "ship_name": "Morgenstern Gesundkost",
+  "ship_address": "Heerstr. 22",
+  "ship_city": "Leipzig",
+  "ship_region": null,
+  "ship_postal_code": "04179",
+  "ship_country": "Germany",
+  "id": "e3aef8f5-68d9-45aa-b658-d06c813bc23a"
+}

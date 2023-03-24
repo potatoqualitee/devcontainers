@@ -1,0 +1,17 @@
+{
+  "order_id": 10312,
+  "customer_id": "WANDK",
+  "employee_id": 2,
+  "order_date": "1996-09-23T00:00:00",
+  "required_date": "1996-10-21T00:00:00",
+  "shipped_date": "1996-10-03T00:00:00",
+  "ship_via": 2,
+  "freight": 40.26,
+  "ship_name": "Die Wandernde Kuh",
+  "ship_address": "Adenauerallee 900",
+  "ship_city": "Stuttgart",
+  "ship_region": null,
+  "ship_postal_code": "70563",
+  "ship_country": "Germany",
+  "id": "6640bfd8-f9f5-4dfe-9052-596f8a2a0896"
+}

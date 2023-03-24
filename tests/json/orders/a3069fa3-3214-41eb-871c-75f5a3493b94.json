@@ -1,0 +1,17 @@
+{
+  "order_id": 10478,
+  "customer_id": "VICTE",
+  "employee_id": 2,
+  "order_date": "1997-03-18T00:00:00",
+  "required_date": "1997-04-01T00:00:00",
+  "shipped_date": "1997-03-26T00:00:00",
+  "ship_via": 3,
+  "freight": 4.81,
+  "ship_name": "Victuailles en stock",
+  "ship_address": "2, rue du Commerce",
+  "ship_city": "Lyon",
+  "ship_region": null,
+  "ship_postal_code": "69004",
+  "ship_country": "France",
+  "id": "a3069fa3-3214-41eb-871c-75f5a3493b94"
+}

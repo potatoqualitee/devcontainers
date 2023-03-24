@@ -1,0 +1,17 @@
+{
+  "order_id": 11003,
+  "customer_id": "THECR",
+  "employee_id": 3,
+  "order_date": "1998-04-06T00:00:00",
+  "required_date": "1998-05-04T00:00:00",
+  "shipped_date": "1998-04-08T00:00:00",
+  "ship_via": 3,
+  "freight": 14.91,
+  "ship_name": "The Cracker Box",
+  "ship_address": "55 Grizzly Peak Rd.",
+  "ship_city": "Butte",
+  "ship_region": "MT",
+  "ship_postal_code": "59801",
+  "ship_country": "USA",
+  "id": "984677d3-d1ef-4678-86b0-c65e53932e9e"
+}

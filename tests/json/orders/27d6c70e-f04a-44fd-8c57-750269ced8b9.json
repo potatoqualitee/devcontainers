@@ -1,0 +1,17 @@
+{
+  "order_id": 11027,
+  "customer_id": "BOTTM",
+  "employee_id": 1,
+  "order_date": "1998-04-16T00:00:00",
+  "required_date": "1998-05-14T00:00:00",
+  "shipped_date": "1998-04-20T00:00:00",
+  "ship_via": 1,
+  "freight": 52.52,
+  "ship_name": "Bottom-Dollar Markets",
+  "ship_address": "23 Tsawassen Blvd.",
+  "ship_city": "Tsawassen",
+  "ship_region": "BC",
+  "ship_postal_code": "T2F 8M4",
+  "ship_country": "Canada",
+  "id": "27d6c70e-f04a-44fd-8c57-750269ced8b9"
+}

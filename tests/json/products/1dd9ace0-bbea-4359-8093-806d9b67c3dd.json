@@ -1,0 +1,14 @@
+{
+  "product_id": 13,
+  "product_name": "Konbu",
+  "supplier_id": 6,
+  "category_id": 8,
+  "quantity_per_unit": "2 kg box",
+  "unit_price": 6.0,
+  "units_in_stock": 24,
+  "units_on_order": 0,
+  "reorder_level": 5,
+  "discontinued": 0,
+  "order_id": 11077,
+  "id": "1dd9ace0-bbea-4359-8093-806d9b67c3dd"
+}

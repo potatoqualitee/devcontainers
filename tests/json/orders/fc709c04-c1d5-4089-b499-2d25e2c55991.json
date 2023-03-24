@@ -1,0 +1,17 @@
+{
+  "order_id": 10483,
+  "customer_id": "WHITC",
+  "employee_id": 7,
+  "order_date": "1997-03-24T00:00:00",
+  "required_date": "1997-04-21T00:00:00",
+  "shipped_date": "1997-04-25T00:00:00",
+  "ship_via": 2,
+  "freight": 15.28,
+  "ship_name": "White Clover Markets",
+  "ship_address": "1029 - 12th Ave. S.",
+  "ship_city": "Seattle",
+  "ship_region": "WA",
+  "ship_postal_code": "98124",
+  "ship_country": "USA",
+  "id": "fc709c04-c1d5-4089-b499-2d25e2c55991"
+}

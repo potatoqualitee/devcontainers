@@ -1,0 +1,15 @@
+{
+  "customer_id": "FRANK",
+  "company_name": "Frankenversand",
+  "contact_name": "Peter Franken",
+  "contact_title": "Marketing Manager",
+  "address": "Berliner Platz 43",
+  "city": "München",
+  "region": null,
+  "postal_code": "80805",
+  "country": "Germany",
+  "phone": "089-0877310",
+  "fax": "089-0877451",
+  "order_id": 10717,
+  "id": "d9c373ed-70ff-4f54-acfb-f2f41ef2afb7"
+}

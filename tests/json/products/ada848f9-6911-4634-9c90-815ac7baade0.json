@@ -1,0 +1,14 @@
+{
+  "product_id": 49,
+  "product_name": "Maxilaku",
+  "supplier_id": 23,
+  "category_id": 3,
+  "quantity_per_unit": "24 - 50 g pkgs.",
+  "unit_price": 20.0,
+  "units_in_stock": 10,
+  "units_on_order": 60,
+  "reorder_level": 15,
+  "discontinued": 0,
+  "order_id": 10304,
+  "id": "ada848f9-6911-4634-9c90-815ac7baade0"
+}

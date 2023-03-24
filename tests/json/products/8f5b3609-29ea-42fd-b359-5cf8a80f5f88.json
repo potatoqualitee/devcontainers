@@ -1,0 +1,14 @@
+{
+  "product_id": 57,
+  "product_name": "Ravioli Angelo",
+  "supplier_id": 26,
+  "category_id": 5,
+  "quantity_per_unit": "24 - 250 g pkgs.",
+  "unit_price": 19.5,
+  "units_in_stock": 36,
+  "units_on_order": 0,
+  "reorder_level": 20,
+  "discontinued": 0,
+  "order_id": 10438,
+  "id": "8f5b3609-29ea-42fd-b359-5cf8a80f5f88"
+}

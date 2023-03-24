@@ -1,0 +1,17 @@
+{
+  "order_id": 10963,
+  "customer_id": "FURIB",
+  "employee_id": 9,
+  "order_date": "1998-03-19T00:00:00",
+  "required_date": "1998-04-16T00:00:00",
+  "shipped_date": "1998-03-26T00:00:00",
+  "ship_via": 3,
+  "freight": 2.7,
+  "ship_name": "Furia Bacalhau e Frutos do Mar",
+  "ship_address": "Jardim das rosas n. 32",
+  "ship_city": "Lisboa",
+  "ship_region": null,
+  "ship_postal_code": "1675",
+  "ship_country": "Portugal",
+  "id": "4a5d0ecb-95cc-4121-a01d-f4e8c0c78632"
+}

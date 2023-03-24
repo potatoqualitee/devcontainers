@@ -1,0 +1,14 @@
+{
+  "product_id": 25,
+  "product_name": "NuNuCa Nuß-Nougat-Creme",
+  "supplier_id": 11,
+  "category_id": 3,
+  "quantity_per_unit": "20 - 450 g glasses",
+  "unit_price": 14.0,
+  "units_in_stock": 76,
+  "units_on_order": 0,
+  "reorder_level": 30,
+  "discontinued": 0,
+  "order_id": 10393,
+  "id": "4023bbb5-c752-41e9-9b0d-6cd4efe37699"
+}

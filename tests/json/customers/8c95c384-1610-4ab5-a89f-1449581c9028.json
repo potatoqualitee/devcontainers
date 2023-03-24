@@ -1,0 +1,15 @@
+{
+  "customer_id": "SPECD",
+  "company_name": "Spécialités du monde",
+  "contact_name": "Dominique Perrier",
+  "contact_title": "Marketing Manager",
+  "address": "25, rue Lauriston",
+  "city": "Paris",
+  "region": null,
+  "postal_code": "75016",
+  "country": "France",
+  "phone": "(1) 47.55.60.10",
+  "fax": "(1) 47.55.60.20",
+  "order_id": 10738,
+  "id": "8c95c384-1610-4ab5-a89f-1449581c9028"
+}

@@ -1,0 +1,14 @@
+{
+  "product_id": 31,
+  "product_name": "Gorgonzola Telino",
+  "supplier_id": 14,
+  "category_id": 4,
+  "quantity_per_unit": "12 - 100 g pkgs",
+  "unit_price": 12.5,
+  "units_in_stock": 0,
+  "units_on_order": 70,
+  "reorder_level": 20,
+  "discontinued": 0,
+  "order_id": 10776,
+  "id": "e7fe7ef0-b4bf-4350-8a5b-fc971f10e452"
+}

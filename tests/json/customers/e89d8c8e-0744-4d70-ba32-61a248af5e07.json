@@ -1,0 +1,15 @@
+{
+  "customer_id": "TORTU",
+  "company_name": "Tortuga Restaurante",
+  "contact_name": "Miguel Angel Paolino",
+  "contact_title": "Owner",
+  "address": "Avda. Azteca 123",
+  "city": "México D.F.",
+  "region": null,
+  "postal_code": "05033",
+  "country": "Mexico",
+  "phone": "(5) 555-2933",
+  "fax": null,
+  "order_id": 10915,
+  "id": "e89d8c8e-0744-4d70-ba32-61a248af5e07"
+}

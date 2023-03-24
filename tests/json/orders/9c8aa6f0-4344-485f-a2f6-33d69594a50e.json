@@ -1,0 +1,17 @@
+{
+  "order_id": 10810,
+  "customer_id": "LAUGB",
+  "employee_id": 2,
+  "order_date": "1998-01-01T00:00:00",
+  "required_date": "1998-01-29T00:00:00",
+  "shipped_date": "1998-01-07T00:00:00",
+  "ship_via": 3,
+  "freight": 4.33,
+  "ship_name": "Laughing Bacchus Wine Cellars",
+  "ship_address": "2319 Elm St.",
+  "ship_city": "Vancouver",
+  "ship_region": "BC",
+  "ship_postal_code": "V3F 2K1",
+  "ship_country": "Canada",
+  "id": "9c8aa6f0-4344-485f-a2f6-33d69594a50e"
+}

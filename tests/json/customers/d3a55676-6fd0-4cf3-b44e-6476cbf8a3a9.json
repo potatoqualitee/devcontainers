@@ -1,0 +1,15 @@
+{
+  "customer_id": "GODOS",
+  "company_name": "Godos Cocina Típica",
+  "contact_name": "José Pedro Freyre",
+  "contact_title": "Sales Manager",
+  "address": "C/ Romero, 33",
+  "city": "Sevilla",
+  "region": null,
+  "postal_code": "41101",
+  "country": "Spain",
+  "phone": "(95) 555 82 82",
+  "fax": null,
+  "order_id": 10303,
+  "id": "d3a55676-6fd0-4cf3-b44e-6476cbf8a3a9"
+}

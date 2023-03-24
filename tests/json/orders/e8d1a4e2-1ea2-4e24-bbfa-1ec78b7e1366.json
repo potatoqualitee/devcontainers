@@ -1,0 +1,17 @@
+{
+  "order_id": 11036,
+  "customer_id": "DRACD",
+  "employee_id": 8,
+  "order_date": "1998-04-20T00:00:00",
+  "required_date": "1998-05-18T00:00:00",
+  "shipped_date": "1998-04-22T00:00:00",
+  "ship_via": 3,
+  "freight": 149.47,
+  "ship_name": "Drachenblut Delikatessen",
+  "ship_address": "Walserweg 21",
+  "ship_city": "Aachen",
+  "ship_region": null,
+  "ship_postal_code": "52066",
+  "ship_country": "Germany",
+  "id": "e8d1a4e2-1ea2-4e24-bbfa-1ec78b7e1366"
+}

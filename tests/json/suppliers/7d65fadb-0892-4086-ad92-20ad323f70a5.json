@@ -1,0 +1,16 @@
+{
+  "supplier_id": 6,
+  "company_name": "Mayumi's",
+  "contact_name": "Mayumi Ohno",
+  "contact_title": "Marketing Representative",
+  "address": "92 Setsuko Chuo-ku",
+  "city": "Osaka",
+  "region": null,
+  "postal_code": "545",
+  "country": "Japan",
+  "phone": "(06) 431-7877",
+  "fax": null,
+  "homepage": "Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#",
+  "order_id": 10309,
+  "id": "7d65fadb-0892-4086-ad92-20ad323f70a5"
+}

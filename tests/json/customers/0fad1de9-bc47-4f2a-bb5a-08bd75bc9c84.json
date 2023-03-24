@@ -1,0 +1,15 @@
+{
+  "customer_id": "WARTH",
+  "company_name": "Wartian Herkku",
+  "contact_name": "Pirkko Koskitalo",
+  "contact_title": "Accounting Manager",
+  "address": "Torikatu 38",
+  "city": "Oulu",
+  "region": null,
+  "postal_code": "90110",
+  "country": "Finland",
+  "phone": "981-443655",
+  "fax": "981-443655",
+  "order_id": 10320,
+  "id": "0fad1de9-bc47-4f2a-bb5a-08bd75bc9c84"
+}

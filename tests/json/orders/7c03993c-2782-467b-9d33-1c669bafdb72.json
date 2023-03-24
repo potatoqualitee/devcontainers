@@ -1,0 +1,17 @@
+{
+  "order_id": 10892,
+  "customer_id": "MAISD",
+  "employee_id": 4,
+  "order_date": "1998-02-17T00:00:00",
+  "required_date": "1998-03-17T00:00:00",
+  "shipped_date": "1998-02-19T00:00:00",
+  "ship_via": 2,
+  "freight": 120.27,
+  "ship_name": "Maison Dewey",
+  "ship_address": "Rue Joseph-Bens 532",
+  "ship_city": "Bruxelles",
+  "ship_region": null,
+  "ship_postal_code": "B-1180",
+  "ship_country": "Belgium",
+  "id": "7c03993c-2782-467b-9d33-1c669bafdb72"
+}

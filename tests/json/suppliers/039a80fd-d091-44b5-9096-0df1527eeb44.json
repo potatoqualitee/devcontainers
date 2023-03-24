@@ -1,0 +1,16 @@
+{
+  "supplier_id": 4,
+  "company_name": "Tokyo Traders",
+  "contact_name": "Yoshi Nagase",
+  "contact_title": "Marketing Manager",
+  "address": "9-8 Sekimai Musashino-shi",
+  "city": "Tokyo",
+  "region": null,
+  "postal_code": "100",
+  "country": "Japan",
+  "phone": "(03) 3555-5011",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10635,
+  "id": "039a80fd-d091-44b5-9096-0df1527eeb44"
+}

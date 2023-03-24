@@ -1,0 +1,16 @@
+{
+  "supplier_id": 23,
+  "company_name": "Karkki Oy",
+  "contact_name": "Anne Heikkonen",
+  "contact_title": "Product Manager",
+  "address": "Valtakatu 12",
+  "city": "Lappeenranta",
+  "region": null,
+  "postal_code": "53120",
+  "country": "Finland",
+  "phone": "(953) 10956",
+  "fax": null,
+  "homepage": null,
+  "order_id": 10470,
+  "id": "2e0606e7-7f13-4290-acba-bbc877a28808"
+}

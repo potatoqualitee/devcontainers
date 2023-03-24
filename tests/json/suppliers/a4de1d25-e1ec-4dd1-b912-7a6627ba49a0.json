@@ -1,0 +1,16 @@
+{
+  "supplier_id": 21,
+  "company_name": "Lyngbysild",
+  "contact_name": "Niels Petersen",
+  "contact_title": "Sales Manager",
+  "address": "Lyngbysild Fiskebakken 10",
+  "city": "Lyngby",
+  "region": null,
+  "postal_code": "2800",
+  "country": "Denmark",
+  "phone": "43844108",
+  "fax": "43844115",
+  "homepage": null,
+  "order_id": 10873,
+  "id": "a4de1d25-e1ec-4dd1-b912-7a6627ba49a0"
+}

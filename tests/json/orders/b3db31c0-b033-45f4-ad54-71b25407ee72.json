@@ -1,0 +1,17 @@
+{
+  "order_id": 10397,
+  "customer_id": "PRINI",
+  "employee_id": 5,
+  "order_date": "1996-12-27T00:00:00",
+  "required_date": "1997-01-24T00:00:00",
+  "shipped_date": "1997-01-02T00:00:00",
+  "ship_via": 1,
+  "freight": 60.26,
+  "ship_name": "Princesa Isabel Vinhos",
+  "ship_address": "Estrada da saúde n. 58",
+  "ship_city": "Lisboa",
+  "ship_region": null,
+  "ship_postal_code": "1756",
+  "ship_country": "Portugal",
+  "id": "b3db31c0-b033-45f4-ad54-71b25407ee72"
+}

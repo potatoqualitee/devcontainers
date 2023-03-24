@@ -1,0 +1,14 @@
+{
+  "product_id": 10,
+  "product_name": "Ikura",
+  "supplier_id": 4,
+  "category_id": 8,
+  "quantity_per_unit": "12 - 200 ml jars",
+  "unit_price": 31.0,
+  "units_in_stock": 31,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 0,
+  "order_id": 10646,
+  "id": "7a2a0d71-c2d5-4ce7-a9a3-d175182c26f2"
+}

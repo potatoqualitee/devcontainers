@@ -43,8 +43,6 @@ foreach ($collection in $tables.Keys) {
     $partitionkey = $tables[$collection]
     Write-Output "Creating collection $collection with partition key $partitionkey"
 
-    $null = New-Item -Type Directory -Path "./tests/json/$collection"
-
     $parms = @{
         Context      = $cosmosDbContext
         Database     = "Northwind"

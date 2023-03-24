@@ -1,0 +1,17 @@
+{
+  "order_id": 10300,
+  "customer_id": "MAGAA",
+  "employee_id": 2,
+  "order_date": "1996-09-09T00:00:00",
+  "required_date": "1996-10-07T00:00:00",
+  "shipped_date": "1996-09-18T00:00:00",
+  "ship_via": 2,
+  "freight": 17.68,
+  "ship_name": "Magazzini Alimentari Riuniti",
+  "ship_address": "Via Ludovico il Moro 22",
+  "ship_city": "Bergamo",
+  "ship_region": null,
+  "ship_postal_code": "24100",
+  "ship_country": "Italy",
+  "id": "86377656-dd5d-4c6d-ae0b-6e931d0de148"
+}

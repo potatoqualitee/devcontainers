@@ -1,0 +1,17 @@
+{
+  "order_id": 10458,
+  "customer_id": "SUPRD",
+  "employee_id": 7,
+  "order_date": "1997-02-26T00:00:00",
+  "required_date": "1997-03-26T00:00:00",
+  "shipped_date": "1997-03-04T00:00:00",
+  "ship_via": 3,
+  "freight": 147.06,
+  "ship_name": "Suprêmes délices",
+  "ship_address": "Boulevard Tirou, 255",
+  "ship_city": "Charleroi",
+  "ship_region": null,
+  "ship_postal_code": "B-6000",
+  "ship_country": "Belgium",
+  "id": "6ab73f83-5f9c-4ff2-b6af-e30b7b3ac031"
+}

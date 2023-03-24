@@ -1,0 +1,14 @@
+{
+  "product_id": 24,
+  "product_name": "Guaraná Fantástica",
+  "supplier_id": 10,
+  "category_id": 1,
+  "quantity_per_unit": "12 - 355 ml cans",
+  "unit_price": 4.5,
+  "units_in_stock": 20,
+  "units_on_order": 0,
+  "reorder_level": 0,
+  "discontinued": 1,
+  "order_id": 10263,
+  "id": "b95f2420-162c-4264-98e3-4d579b2c31d7"
+}
