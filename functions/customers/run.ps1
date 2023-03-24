@@ -1,72 +1,26 @@
 using namespace System.Net
 
 # Input bindings are passed in via param block.
-param (
-    $Request,
-    $TriggerMetadata
-)
+param($Request, $TriggerMetadata, $CosmosInput)
+
 # Write to the Azure Functions log stream.
-Write-Host "PowerShell HTTP trigger function processed a customer request."
+Write-Host "PowerShell HTTP trigger function processed a request."
+Write-Host "Total number of candidates: $($CosmosInput.Count)"
 
-$parms = @{}
-$where = @()
-$table = "public.customers"
-$query = "SELECT customer_id, address, city, company_name, contact_name, contact_title, country, fax, phone, postal_code, region FROM public.customers"
+# Select the best country
+$results = $CosmosInput | Where-Object country -eq "France"
+$city = $results.city
 
-$id = $Request.Params.id
-$options = $Request.Params.options
+Write-output "Results: $resultsName"
 
-switch ($Request.Method) {
-    "post" {
-        $prep = New-ApiItem -Body $Request.Body -Table $table
-        $query = $prep.Query
-        $parms = $prep.Parameters
-    }
-    "patch" {
-        $prep = Update-ApiItem -Body $Request.Body -Table $table
-        $query = $prep.Query
-        $parms = $prep.Parameters
-    }
-    "delete" {
-        # usually this is a straightforward query
-        # but the db is relational with no cascading
-        $query = "
-        DELETE 
-            FROM order_details d
-            USING orders o
-            WHERE o.order_id = d.order_id
-            AND o.customer_id = @customer_id;
-        DELETE 
-            FROM orders o
-            USING customers c
-            WHERE o.customer_id = c.customer_id
-            AND o.customer_id = @customer_id;
-        DELETE
-            FROM customers
-            WHERE customer_id = @customer_id;"
-        $parms.customer_id = $id
-    }
-}
+# Change the HasWon value for the results in the CosmosDB
+$zip = $results.postal_code
+$results.postal_code = [int]($results.postal_code)+1
+Push-OutputBinding -Name CosmosOutput -Value $results
 
-if ($options -eq "whatever") {
-    # this is a placeholder for you
-    # to get creative.
-}
-
-if ($id -and $Request.Method -ne "delete") {
-    $where += "customer_id = @customer_id"
-    $parms.customer_id = $id
-}
-
-try {
-    $splat = @{
-        Statement   = $query
-        Where       = $where
-        OrderBy     = $orderby
-        Parms       = $parms
-        ErrorAction = "Stop"
-    }
-    Push-GoodRequest -Body (Invoke-Query @splat)
-} catch {
-    Push-BadRequest -Body "$PSItem"
-}
+#Give an HTML output back to the caller
+Push-OutputBinding -Name Response -Value (@{
+        StatusCode  = [HttpStatusCode]::OK
+        ContentType = "text/html"
+        Body        = "$city's zip code is $zip"
+    })
