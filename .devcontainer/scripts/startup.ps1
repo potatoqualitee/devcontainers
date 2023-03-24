@@ -31,7 +31,10 @@ $tables = @{
     employees     = "order_id"
 }
 
+
 Write-Output "Populating Cosmos DB with some sample data (this will take a bit..)"
+$time = [System.Diagnostics.Stopwatch]::StartNew()
+
 $cosmosDbContext = New-CosmosDbContext -Emulator
 New-CosmosDbDatabase -Context $cosmosDbContext -Id Northwind
 
@@ -39,6 +42,8 @@ New-CosmosDbDatabase -Context $cosmosDbContext -Id Northwind
 foreach ($collection in $tables.Keys) {
     $partitionkey = $tables[$collection]
     Write-Output "Creating collection $collection with partition key $partitionkey"
+
+    $null = New-Item -Type Directory -Path "./tests/json/$collection"
 
     $parms = @{
         Context      = $cosmosDbContext
@@ -67,3 +72,5 @@ foreach ($collection in $tables.Keys) {
     }
 }
 
+Write-Output "Seeding complete"
+Write-Output "Time elapsed: $($time.Elapsed.TotalSeconds) seconds"
