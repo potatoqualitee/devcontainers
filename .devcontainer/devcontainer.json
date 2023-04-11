@@ -18,6 +18,7 @@
 				"powershell.powerShellAdditionalExePaths": {
 					"PowerShell": "/usr/bin/pwsh"
 				},
+				"terminal.integrated.shell.linux": "pwsh",
 				"powershell.powerShellDefaultVersion": "PowerShell",
 				"terminal.integrated.defaultProfile.linux": "thispwsh",
 				"azureFunctions.pickProcessTimeout": 500
